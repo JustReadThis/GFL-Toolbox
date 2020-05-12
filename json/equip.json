@@ -1,0 +1,772 @@
+﻿[
+        {
+            "rarity": "★★",
+            "timer": "00:05:00",
+            "t_string": "005",
+            "class": "Optical Sight",
+            "name": "BM 3-12X40",
+            "avatar": "icon-e/配件_光学瞄准镜_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:07:00",
+            "t_string": "007",
+            "class": "Suppressor",
+            "name": "AC1 Suppressor",
+            "avatar": "icon-e/配件_消音器_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:08:00",
+            "t_string": "008",
+            "class": "Holographic Sight",
+            "name": "EOT 506",
+            "avatar": "icon-e/配件_全息瞄准镜_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:09:00",
+            "t_string": "009",
+            "class": "Night Battle Equipment",
+            "name": "PEQ-2",
+            "avatar": "icon-e/配件_红外夜视仪_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:10:00",
+            "t_string": "010",
+            "class": "Red Dot Sight",
+            "name": "AMP COMPM2",
+            "avatar": "icon-e/配件_ACOG瞄准镜_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:12:00",
+            "t_string": "012",
+            "class": "Exoskeleton",
+            "name": "IOP X1 Exoskeleton",
+            "avatar": "icon-e/人形装备_外骨骼_X_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:12:00",
+            "t_string": "012",
+            "class": "Exoskeleton",
+            "name": "IOP T1 Exoskeleton",
+            "avatar": "icon-e/人形装备_外骨骼_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:13:00",
+            "t_string": "013",
+            "class": "HP Ammo",
+            "name": "ILM Hollow Point Ammo (2-Star)",
+            "avatar": "icon-e/弹匣_状态弹_空尖弹_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:14:00",
+            "t_string": "014",
+            "class": "Shotgun Shells",
+            "name": "BK Slug",
+            "avatar": "icon-e/弹匣_霰弹_独头弹_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:14:00",
+            "t_string": "014",
+            "class": "Shotgun Shells",
+            "name": "＃1 Buckshot",
+            "avatar": "icon-e/弹匣_霰弹_鹿弹_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:15:00",
+            "t_string": "015",
+            "class": "AP Ammo",
+            "name": "M61 Armor-Piercing Ammo",
+            "avatar": "icon-e/弹匣_穿甲弹_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:16:00",
+            "t_string": "016",
+            "class": "Camouflage cloak",
+            "name": "Ragged Cape",
+            "avatar": "icon-e/人形装备_伪装披风_N1.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★",
+            "timer": "00:18:00",
+            "t_string": "018",
+            "class": "HV Ammo",
+            "name": "FMJ High-Velocity Ammo",
+            "avatar": "icon-e/弹匣_高速弹_N.png",
+            "color": "rgba(255, 255, 255, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:20:00",
+            "t_string": "020",
+            "class": "Optical Sight",
+            "name": "LRA 2-12x50",
+            "avatar": "icon-e/配件_光学瞄准镜_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:22:00",
+            "t_string": "022",
+            "class": "Suppressor",
+            "name": "AC2 Suppressor",
+            "avatar": "icon-e/配件_消音器_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:23:00",
+            "t_string": "023",
+            "class": "Holographic Sight",
+            "name": "EOT 512",
+            "avatar": "icon-e/配件_全息瞄准镜_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:24:00",
+            "t_string": "024",
+            "class": "Night Battle Equipment",
+            "name": "PEQ-5",
+            "avatar": "icon-e/配件_红外夜视仪_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:25:00",
+            "t_string": "025",
+            "class": "Red Dot Sight",
+            "name": "AMP COMPM4",
+            "avatar": "icon-e/配件_ACOG瞄准镜_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:26:00",
+            "t_string": "026",
+            "class": "Armor Plate",
+            "name": "Type 1 Armor Plate",
+            "avatar": "icon-e/人形装备_防弹插板_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:27:00",
+            "t_string": "027",
+            "class": "Exoskeleton",
+            "name": "IOP X2 Exoskeleton",
+            "avatar": "icon-e/人形装备_外骨骼_X_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:27:00",
+            "t_string": "027",
+            "class": "Exoskeleton",
+            "name": "IOP T2 Exoskeleton",
+            "avatar": "icon-e/人形装备_外骨骼_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:28:00",
+            "t_string": "028",
+            "class": "HP Ammo",
+            "name": "ILM Hollow Point Ammo (3-Star)",
+            "avatar": "icon-e/弹匣_状态弹_空尖弹_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:29:00",
+            "t_string": "029",
+            "class": "Shotgun Shells",
+            "name": "FST Slug",
+            "avatar": "icon-e/弹匣_霰弹_独头弹_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:29:00",
+            "t_string": "029",
+            "class": "Shotgun Shells",
+            "name": "＃0 Buckshot",
+            "avatar": "icon-e/弹匣_霰弹_鹿弹_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:30:00",
+            "t_string": "030",
+            "class": "AP Ammo",
+            "name": "M993 Armor-Piercing Ammo",
+            "avatar": "icon-e/弹匣_穿甲弹_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:31:00",
+            "t_string": "031",
+            "class": "Camouflage cloak",
+            "name": "Camouflage Cape",
+            "avatar": "icon-e/人形装备_伪装披风_N1.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★",
+            "timer": "00:33:00",
+            "t_string": "033",
+            "class": "HV Ammo",
+            "name": "JSP High-Velocity Ammo",
+            "avatar": "icon-e/弹匣_高速弹_N.png",
+            "color": "rgba(107, 223, 206, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:35:00",
+            "t_string": "035",
+            "class": "Optical Sight",
+            "name": "PSO-1",
+            "avatar": "icon-e/配件_光学瞄准镜_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:37:00",
+            "t_string": "037",
+            "class": "Suppressor",
+            "name": "AC3 Suppressor",
+            "avatar": "icon-e/配件_消音器_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:38:00",
+            "t_string": "038",
+            "class": "Holographic Sight",
+            "name": "EOT 516",
+            "avatar": "icon-e/配件_全息瞄准镜_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:39:00",
+            "t_string": "039",
+            "class": "Night Battle Equipment",
+            "name": "PEQ-15",
+            "avatar": "icon-e/配件_红外夜视仪_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:40:00",
+            "t_string": "040",
+            "class": "Red Dot Sight",
+            "name": "COG M150",
+            "avatar": "icon-e/配件_ACOG瞄准镜_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:41:00",
+            "t_string": "041",
+            "class": "Armor Plate",
+            "name": "Type 2 Armor Plate",
+            "avatar": "icon-e/人形装备_防弹插板_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:42:00",
+            "t_string": "042",
+            "class": "Exoskeleton",
+            "name": "IOP T3 Exoskeleton",
+            "avatar": "icon-e/人形装备_外骨骼_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:42:00",
+            "t_string": "042",
+            "class": "Exoskeleton",
+            "name": "IOP X3 Exoskeleton",
+            "avatar": "icon-e/人形装备_外骨骼_X_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:43:00",
+            "t_string": "043",
+            "class": "HP Ammo",
+            "name": "ILM Hollow Point Ammo (4-Star)",
+            "avatar": "icon-e/弹匣_状态弹_空尖弹_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:44:00",
+            "t_string": "044",
+            "class": "Shotgun Shells",
+            "name": "WAD Slug",
+            "avatar": "icon-e/弹匣_霰弹_独头弹_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:44:00",
+            "t_string": "044",
+            "class": "Shotgun Shells",
+            "name": "＃00 Buckshot",
+            "avatar": "icon-e/弹匣_霰弹_鹿弹_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:45:00",
+            "t_string": "045",
+            "class": "Optical Sight",
+            "name": "VFL 6-24x56",
+            "avatar": "icon-e/配件_光学瞄准镜_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:45:00",
+            "t_string": "045",
+            "class": "AP Ammo",
+            "name": "Mk169 Armor-Piercing Ammo",
+            "avatar": "icon-e/弹匣_穿甲弹_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:46:00",
+            "t_string": "046",
+            "class": "Camouflage cloak",
+            "name": "Urban Camouflage Cape",
+            "avatar": "icon-e/人形装备_伪装披风_N2.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:47:00",
+            "t_string": "047",
+            "class": "Suppressor",
+            "name": "AC4 Suppressor",
+            "avatar": "icon-e/配件_消音器_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:47:00",
+            "t_string": "047",
+            "class": "Ammunition Box",
+            "name": "IOP High-Capacity Ammo Box",
+            "avatar": "icon-e/人形装备_弹链箱_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:48:00",
+            "t_string": "048",
+            "class": "Holographic Sight",
+            "name": "EOT 518",
+            "avatar": "icon-e/配件_全息瞄准镜_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★",
+            "timer": "00:48:00",
+            "t_string": "048",
+            "class": "HV Ammo",
+            "name": "JHP High-Velocity Ammo",
+            "avatar": "icon-e/弹匣_高速弹_N.png",
+            "color": "rgba(214, 227, 90, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:49:00",
+            "t_string": "049",
+            "class": "Night Battle Equipment",
+            "name": "PEQ-16A",
+            "avatar": "icon-e/配件_红外夜视仪_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:50:00",
+            "t_string": "050",
+            "class": "Red Dot Sight",
+            "name": "ITI Mars",
+            "avatar": "icon-e/配件_ACOG瞄准镜_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:51:00",
+            "t_string": "051",
+            "class": "Armor Plate",
+            "name": "Type 3 Armor Plate",
+            "avatar": "icon-e/人形装备_防弹插板_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:52:00",
+            "t_string": "052",
+            "class": "Exoskeleton",
+            "name": "IOP X4 Exoskeleton",
+            "avatar": "icon-e/人形装备_外骨骼_X_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:52:00",
+            "t_string": "052",
+            "class": "Exoskeleton",
+            "name": "IOP T4 Exoskeleton",
+            "avatar": "icon-e/人形装备_外骨骼_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:53:00",
+            "t_string": "053",
+            "class": "HP Ammo",
+            "name": "ILM Hollow Point Ammo",
+            "avatar": "icon-e/弹匣_状态弹_空尖弹_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:54:00",
+            "t_string": "054",
+            "class": "Shotgun Shells",
+            "name": "SABOT Slug",
+            "avatar": "icon-e/弹匣_霰弹_独头弹_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:54:00",
+            "t_string": "054",
+            "class": "Shotgun Shells",
+            "name": "＃000 Buckshot",
+            "avatar": "icon-e/弹匣_霰弹_鹿弹_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:55:00",
+            "t_string": "055",
+            "class": "AP Ammo",
+            "name": "Mk211 High-Explosive Armor-Piercing Ammo",
+            "avatar": "icon-e/弹匣_穿甲弹_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:56:00",
+            "t_string": "056",
+            "class": "Camouflage cloak",
+            "name": "Thermoptic Camouflage Cape",
+            "avatar": "icon-e/人形装备_伪装披风_N3.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:57:00",
+            "t_string": "057",
+            "class": "Ammunition Box",
+            "name": "IOP Maximum Ammo Box",
+            "avatar": "icon-e/人形装备_弹链箱_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "★★★★★",
+            "timer": "00:58:00",
+            "t_string": "058",
+            "class": "HV Ammo",
+            "name": "APCR High-Velocity Ammo",
+            "avatar": "icon-e/弹匣_高速弹_N.png",
+            "color": "rgba(255, 182, 0, 0.8)",
+            "type": "  "
+        },
+        {
+            "rarity": "  ",
+            "timer": "03:00:00",
+            "t_string": "300",
+            "class": "Fairy",
+            "name": "Armor Fairy",
+            "avatar": "fairy/armor_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "03:05:00",
+            "t_string": "305",
+            "class": "Fairy",
+            "name": "Shield Fairy",
+            "avatar": "fairy/shield_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "03:10:00",
+            "t_string": "310",
+            "class": "Fairy",
+            "name": "Taunt Fairy",
+            "avatar": "fairy/target_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "03:30:00",
+            "t_string": "330",
+            "class": "Fairy",
+            "name": "Sniper Fairy",
+            "avatar": "fairy/sniper_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "03:35:00",
+            "t_string": "335",
+            "class": "Fairy",
+            "name": "Artillery Fairy",
+            "avatar": "fairy/bombard_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "03:40:00",
+            "t_string": "340",
+            "class": "Fairy",
+            "name": "Airstrike Fairy",
+            "avatar": "fairy/air_attack_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "04:00:00",
+            "t_string": "400",
+            "class": "Fairy",
+            "name": "Reinforcement Fairy",
+            "avatar": "fairy/reinforce_3.png",
+            "color": "rgba(115, 158, 231, 0.8)",
+            "type": "Strategy"
+        },
+        {
+            "rarity": "  ",
+            "timer": "04:05:00",
+            "t_string": "405",
+            "class": "Fairy",
+            "name": "Parachute Fairy",
+            "avatar": "fairy/airborne_3.png",
+            "color": "rgba(115, 158, 231, 0.8)",
+            "type": "Strategy"
+        },
+        {
+            "rarity": "  ",
+            "timer": "04:10:00",
+            "t_string": "410",
+            "class": "Fairy",
+            "name": "Defense Fairy",
+            "avatar": "fairy/defense_3.png",
+            "color": "rgba(115, 158, 231, 0.8)",
+            "type": "Strategy"
+        },
+        {
+            "rarity": "  ",
+            "timer": "04:15:00",
+            "t_string": "415",
+            "class": "Fairy",
+            "name": "Barrier Fairy",
+            "avatar": "fairy/standshield_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "04:30:00",
+            "t_string": "430",
+            "class": "Fairy",
+            "name": "Warrior Fairy",
+            "avatar": "fairy/fighting_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "04:35:00",
+            "t_string": "435",
+            "class": "Fairy",
+            "name": "Fury Fairy",
+            "avatar": "fairy/crit_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "04:40:00",
+            "t_string": "440",
+            "class": "Fairy",
+            "name": "Twin Fairy",
+            "avatar": "fairy/twins_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "05:00:00",
+            "t_string": "500",
+            "class": "Fairy",
+            "name": "Command Fairy",
+            "avatar": "fairy/command_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "05:05:00",
+            "t_string": "505",
+            "class": "Fairy",
+            "name": "Rescue Fairy",
+            "avatar": "fairy/rescue_3.png",
+            "color": "rgba(247, 101, 41, 0.8)",
+            "type": "Combat"
+        },
+        {
+            "rarity": "  ",
+            "timer": "05:10:00",
+            "t_string": "510",
+            "class": "Fairy",
+            "name": "Illumination Fairy",
+            "avatar": "fairy/illumine_3.png",
+            "color": "rgba(115, 158, 231, 0.8)",
+            "type": "Strategy"
+        },
+        {
+            "rarity": "  ",
+            "timer": "05:15:00",
+            "t_string": "515",
+            "class": "Fairy",
+            "name": "Combo Fairy",
+            "avatar": "fairy/combo_3.png",
+            "color": "rgba(115, 158, 231, 0.8)",
+            "type": "Strategy"
+        },
+        {
+            "rarity": "  ",
+            "timer": "05:30:00",
+            "t_string": "530",
+            "class": "Fairy",
+            "name": "Landmine Fairy",
+            "avatar": "fairy/Landmines_3.png",
+            "color": "rgba(115, 158, 231, 0.8)",
+            "type": "Strategy"
+        },
+        {
+            "rarity": "  ",
+            "timer": "05:35:00",
+            "t_string": "535",
+            "class": "Fairy",
+            "name": "Rocket Fairy",
+            "avatar": "fairy/position_3.png",
+            "color": "rgba(115, 158, 231, 0.8)",
+            "type": "Strategy"
+        },
+        {
+            "rarity": "  ",
+            "timer": "05:40:00",
+            "t_string": "540",
+            "class": "Fairy",
+            "name": "Construction Fairy",
+            "avatar": "fairy/fortress_3.png",
+            "color": "rgba(115, 158, 231, 0.8)",
+            "type": "Strategy"
+        }
+    ]
