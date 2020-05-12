@@ -17,7 +17,7 @@ SearchBar.addEventListener('keyup', (e) => {
 
 const Load_TDoll = async () => {
     try {
-        let url = "/json/equip.json";
+        let url = "json/equip.json";
         const res = await fetch(url);
         Bunch_TDoll = await res.json();
         Display_TDoll(Bunch_TDoll);
