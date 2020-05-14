@@ -62,10 +62,10 @@ dayjs.extend(preciseDiff);
 }
 /*                       Countdown 8May-1Jun Section End                          */
 
-/*                       Countdown 12May-13May Section Start                          */
+/*                       Countdown 14May-15May Section Start                          */
 {
     var eventTime3, currentTime3, duration3;
-    eventTime3 = dayjs.utc('2020-05-13T23:59:59-08:00').format();
+    eventTime3 = dayjs.utc('2020-05-15T23:59:59-08:00').format();
 
     // based on time set in user's computer time / OS
 
@@ -91,9 +91,10 @@ dayjs.extend(preciseDiff);
         }
     }, 1000);
 }
-/*                       Countdown 12May-13May Section End                          */
+/*                       Countdown 14May-153May Section End                          */
 
 /*                       Countdown 8May-13May Section Start                          */
+/* 
 {
     var eventTime4, currentTime4, duration4;
     eventTime4 = dayjs.utc('2020-05-13T23:59:59-08:00').format();
@@ -122,6 +123,7 @@ dayjs.extend(preciseDiff);
         }
     }, 1000);
 }
+*/
 /*                       Countdown 8May-13May Section End                          */
 
 
