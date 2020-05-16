@@ -127,10 +127,10 @@ dayjs.extend(preciseDiff);
 /*                       Countdown 8May-13May Section End                          */
 
 
-/*                       Countdown 8May-15May Section Start                          */
+/*                       Countdown 8May-25May Section Start                          */
 {
     var eventTime5, currentTime5, duration5;
-    eventTime5 = dayjs.utc('2020-05-15T23:59:59-08:00').format();
+    eventTime5 = dayjs.utc('2020-05-25T23:59:59-08:00').format();
 
     // based on time set in user's computer time / OS
 
@@ -155,13 +155,13 @@ dayjs.extend(preciseDiff);
         }
     }, 1000);
 }
-/*                       Countdown 8May-15May Section End                          */
+/*                       Countdown 8May-25May Section End                          */
 
 
-/*                       Countdown 28Aprik-25May Section Start                          */
+/*                       Countdown 28Aprik-28May Section Start                          */
 {
     var eventTime6, currentTime6, duration6;
-    eventTime6 = dayjs.utc('2020-05-25T23:59:59-08:00').format();
+    eventTime6 = dayjs.utc('2020-05-28T23:59:59-08:00').format();
 
     // based on time set in user's computer time / OS
 
@@ -187,13 +187,13 @@ dayjs.extend(preciseDiff);
         }
     }, 1000);
 }
-/*                       Countdown 28April-25May Section End                          */
+/*                       Countdown 28April-28May Section End                          */
 
 
-/*                       Countdown 5May-28May Section Start                          */
+/*                       Countdown 16May-19May Section Start                          */
 {
     var eventTime7, currentTime7, duration7;
-    eventTime7 = dayjs.utc('2020-05-28T23:59:59-08:00').format();
+    eventTime7 = dayjs.utc('2020-05-19T23:59:59-08:00').format();
 
     // based on time set in user's computer time / OS
 
@@ -218,7 +218,7 @@ dayjs.extend(preciseDiff);
         }
     }, 1000);
 }
-/*                       Countdown 5May-28May Section End                          */
+/*                       Countdown 16May-19May Section End                          */
 
 
 /*                       Countdown 5May-22May Section Start                          */

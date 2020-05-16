@@ -32,7 +32,7 @@ const Display_TDoll = (Tdolls) => {
             return `
             <li class="Tdoll">
                 <h2>${Tdoll.name}</h2>
-                <img src="${Tdoll.avatar}" style="background:${Tdoll.color}"></img>
+                <img src="${Tdoll.avatar}" width="102px" height="102px" style="background:${Tdoll.color}"></img>
                 <p1 style="background:${Tdoll.color}">${Tdoll.class}</p1>
                 <p4 style="background:${Tdoll.color}">${Tdoll.type}</p4><p2>${Tdoll.rarity}</p2>
                 <p3>${Tdoll.timer}</p3>
