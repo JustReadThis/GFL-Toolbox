@@ -1,0 +1,1812 @@
+﻿[
+        {
+            "id": "1",
+            "rarity": "★★",
+            "timer": "00:20:00",
+            "t_string": "020",
+            "class": "HG",
+            "name": "M1911",
+            "avatar": "avatar/2/M1911.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "2",
+            "rarity": "★★",
+            "timer": "00:20:00",
+            "t_string": "020",
+            "class": "HG",
+            "name": "M1895",
+            "avatar": "avatar/2/M1895.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "3",
+            "rarity": "★★",
+            "timer": "00:20:00",
+            "t_string": "020",
+            "class": "HG",
+            "name": "P38",
+            "avatar": "avatar/2/P38.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "4",
+            "rarity": "★★",
+            "timer": "00:22:00",
+            "t_string": "022",
+            "class": "HG",
+            "name": "PPK",
+            "avatar": "avatar/2/PPK.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "5",
+            "rarity": "★★",
+            "timer": "00:25:00",
+            "t_string": "025",
+            "class": "HG",
+            "name": "FF FNP9",
+            "avatar": "avatar/2/FNP9.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "6",
+            "rarity": "★★",
+            "timer": "00:25:00",
+            "t_string": "025",
+            "class": "HG",
+            "name": "MP-446",
+            "avatar": "avatar/2/MP446.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "7",
+            "rarity": "★★",
+            "timer": "00:28:00",
+            "t_string": "028",
+            "class": "HG",
+            "name": "Bren Ten",
+            "avatar": "avatar/2/BrenTen.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "8",
+            "rarity": "★★",
+            "timer": "00:28:00",
+            "t_string": "028",
+            "class": "HG",
+            "name": "Gr USPCompact",
+            "avatar": "avatar/2/USPCompact.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "9",
+            "rarity": "★★",
+            "timer": "01:10:00",
+            "t_string": "110",
+            "class": "SMG",
+            "name": "PP-2000",
+            "avatar": "avatar/2/PP2000.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "10",
+            "rarity": "★★",
+            "timer": "01:10:00",
+            "t_string": "110",
+            "class": "SMG",
+            "name": "IDW",
+            "avatar": "avatar/2/IDW.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "11",
+            "rarity": "★★",
+            "timer": "01:20:00",
+            "t_string": "120",
+            "class": "SMG",
+            "name": "m45",
+            "avatar": "avatar/2/m45.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "12",
+            "rarity": "★★",
+            "timer": "01:20:00",
+            "t_string": "120",
+            "class": "SMG",
+            "name": "Spectre M4",
+            "avatar": "avatar/2/SpectreM4.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "13",
+            "rarity": "★★",
+            "timer": "01:25:00",
+            "t_string": "125",
+            "class": "SMG",
+            "name": "Type64",
+            "avatar": "avatar/2/64type.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "14",
+            "rarity": "★★",
+            "timer": "01:30:00",
+            "t_string": "130",
+            "class": "SMG",
+            "name": "M3",
+            "avatar": "avatar/2/M3.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "15",
+            "rarity": "★★",
+            "timer": "01:30:00",
+            "t_string": "130",
+            "class": "SMG",
+            "name": "MP40",
+            "avatar": "avatar/2/MP40.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "16",
+            "rarity": "★★",
+            "timer": "01:30:00",
+            "t_string": "130",
+            "class": "SMG",
+            "name": "M38",
+            "avatar": "avatar/2/MAB38.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "17",
+            "rarity": "★★",
+            "timer": "01:50:00",
+            "t_string": "150",
+            "class": "SMG",
+            "name": "PPSh-41",
+            "avatar": "avatar/2/PPsh41.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "18",
+            "rarity": "★★",
+            "timer": "02:40:00",
+            "t_string": "240",
+            "class": "AR",
+            "name": "Galil",
+            "avatar": "avatar/2/AR.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "19",
+            "rarity": "★★",
+            "timer": "02:40:00",
+            "t_string": "240",
+            "class": "AR",
+            "name": "SIG-510",
+            "avatar": "avatar/2/SIG510.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "20",
+            "rarity": "★★",
+            "timer": "02:45:00",
+            "t_string": "245",
+            "class": "AR",
+            "name": "FF F2000",
+            "avatar": "avatar/2/F2000.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "21",
+            "rarity": "★★",
+            "timer": "02:45:00",
+            "t_string": "245",
+            "class": "AR",
+            "name": "Type63",
+            "avatar": "avatar/2/63type.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "22",
+            "rarity": "★★",
+            "timer": "02:50:00",
+            "t_string": "250",
+            "class": "AR",
+            "name": "Gr G3",
+            "avatar": "avatar/2/G3.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "23",
+            "rarity": "★★",
+            "timer": "02:50:00",
+            "t_string": "250",
+            "class": "AR",
+            "name": "L85A1",
+            "avatar": "avatar/2/L85A1.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "24",
+            "rarity": "★★",
+            "timer": "03:10:00",
+            "t_string": "310",
+            "class": "RF",
+            "name": "G43",
+            "avatar": "avatar/2/G43.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "25",
+            "rarity": "★★",
+            "timer": "03:10:00",
+            "t_string": "310",
+            "class": "RF",
+            "name": "FF FN49",
+            "avatar": "avatar/2/FN49.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "26",
+            "rarity": "★★",
+            "timer": "03:20:00",
+            "t_string": "320",
+            "class": "RF",
+            "name": "VM59",
+            "avatar": "avatar/2/BM59.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "27",
+            "rarity": "★★",
+            "timer": "03:30:00",
+            "t_string": "330",
+            "class": "RF",
+            "name": "SVT-38",
+            "avatar": "avatar/2/SVT38.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "28",
+            "rarity": "★★",
+            "timer": "03:30:00",
+            "t_string": "330",
+            "class": "RF",
+            "name": "SKS",
+            "avatar": "avatar/2/SKS.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "29",
+            "rarity": "★★",
+            "timer": "04:50:00",
+            "t_string": "450",
+            "class": "MG",
+            "name": "FG42",
+            "avatar": "avatar/2/FG42.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "30",
+            "rarity": "★★",
+            "timer": "04:50:00",
+            "t_string": "450",
+            "class": "MG",
+            "name": "AAT-52",
+            "avatar": "avatar/2/AAT52.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "31",
+            "rarity": "★★",
+            "timer": "05:00:00",
+            "t_string": "500",
+            "class": "MG",
+            "name": "DP28",
+            "avatar": "avatar/2/DP28.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "32",
+            "rarity": "★★",
+            "timer": "05:00:00",
+            "t_string": "500",
+            "class": "MG",
+            "name": "MG34",
+            "avatar": "avatar/2/MG34.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "33",
+            "rarity": "★★",
+            "timer": "05:10:00",
+            "t_string": "510",
+            "class": "MG",
+            "name": "LWMMG",
+            "avatar": "avatar/2/LWMMG.png",
+            "color": "rgba(255, 255, 255, 0.8)"
+        },
+        {
+            "id": "34",
+            "rarity": "★★★",
+            "timer": "00:30:00",
+            "t_string": "030",
+            "class": "HG",
+            "name": "P08",
+            "avatar": "avatar/3/P08.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "35",
+            "rarity": "★★★",
+            "timer": "00:30:00",
+            "t_string": "030",
+            "class": "HG",
+            "name": "C96",
+            "avatar": "avatar/3/C96.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "36",
+            "rarity": "★★★",
+            "timer": "00:35:00",
+            "t_string": "035",
+            "class": "HG",
+            "name": "Type92",
+            "avatar": "avatar/3/92type.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "37",
+            "rarity": "★★★",
+            "timer": "00:35:00",
+            "t_string": "035",
+            "class": "HG",
+            "name": "P99",
+            "avatar": "avatar/3/P99.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "38",
+            "rarity": "★★★",
+            "timer": "00:40:00",
+            "t_string": "040",
+            "class": "HG",
+            "name": "M9",
+            "avatar": "avatar/3/M9.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "39",
+            "rarity": "★★★",
+            "timer": "00:40:00",
+            "t_string": "040",
+            "class": "HG",
+            "name": "Makarov",
+            "avatar": "avatar/3/PM.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "40",
+            "rarity": "★★★",
+            "timer": "00:40:00",
+            "t_string": "040",
+            "class": "HG",
+            "name": "Astra",
+            "avatar": "avatar/3/357.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "41",
+            "rarity": "★★★",
+            "timer": "00:45:00",
+            "t_string": "045",
+            "class": "HG",
+            "name": "Tokarev",
+            "avatar": "avatar/3/TT33.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "42",
+            "rarity": "★★★",
+            "timer": "01:40:00",
+            "t_string": "140",
+            "class": "SMG",
+            "name": "STEN MkⅡ",
+            "avatar": "avatar/3/StenMK2.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "43",
+            "rarity": "★★★",
+            "timer": "01:40:00",
+            "t_string": "140",
+            "class": "SMG",
+            "name": "Micro Uzi",
+            "avatar": "avatar/3/MicroUZI.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "44",
+            "rarity": "★★★",
+            "timer": "01:50:00",
+            "t_string": "150",
+            "class": "SMG",
+            "name": "F1",
+            "avatar": "avatar/3/F1.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "45",
+            "rarity": "★★★",
+            "timer": "02:00:00",
+            "t_string": "200",
+            "class": "SMG",
+            "name": "Ingram",
+            "avatar": "avatar/3/MAC10.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "46",
+            "rarity": "★★★",
+            "timer": "02:00:00",
+            "t_string": "200",
+            "class": "SMG",
+            "name": "Skorpion",
+            "avatar": "avatar/3/VZ61.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "47",
+            "rarity": "★★★",
+            "timer": "02:05:00",
+            "t_string": "205",
+            "class": "SMG",
+            "name": "Z-62",
+            "avatar": "avatar/3/Z62.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "48",
+            "rarity": "★★★",
+            "timer": "02:10:00",
+            "t_string": "210",
+            "class": "SMG",
+            "name": "PPS-43",
+            "avatar": "avatar/3/PPS43.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "49",
+            "rarity": "★★★",
+            "timer": "03:00:00",
+            "t_string": "300",
+            "class": "AR",
+            "name": "StG44",
+            "avatar": "avatar/3/STG44.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "50",
+            "rarity": "★★★",
+            "timer": "03:10:00",
+            "t_string": "310",
+            "class": "AR",
+            "name": "OTs-12",
+            "avatar": "avatar/3/OTs12.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "51",
+            "rarity": "★★★",
+            "timer": "03:15:00",
+            "t_string": "315",
+            "class": "AR",
+            "name": "ARX-160",
+            "avatar": "avatar/3/ARX160.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "52",
+            "rarity": "★★★",
+            "timer": "03:20:00",
+            "t_string": "320",
+            "class": "AR",
+            "name": "AK-47",
+            "avatar": "avatar/3/AK47.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "53",
+            "rarity": "★★★",
+            "timer": "03:20:00",
+            "t_string": "320",
+            "class": "AR",
+            "name": "FF FNC",
+            "avatar": "avatar/3/FNFNC.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "54",
+            "rarity": "★★★",
+            "timer": "03:40:00",
+            "t_string": "340",
+            "class": "RF",
+            "name": "M14",
+            "avatar": "avatar/3/M14.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "55",
+            "rarity": "★★★",
+            "timer": "03:40:00",
+            "t_string": "340",
+            "class": "RF",
+            "name": "SV-98",
+            "avatar": "avatar/3/SV98.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "56",
+            "rarity": "★★★",
+            "timer": "03:50:00",
+            "t_string": "350",
+            "class": "RF",
+            "name": "Type88",
+            "avatar": "avatar/3/88type.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "57",
+            "rarity": "★★★",
+            "timer": "03:50:00",
+            "t_string": "350",
+            "class": "RF",
+            "name": "OTs-44",
+            "avatar": "avatar/3/OC44.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "58",
+            "rarity": "★★★",
+            "timer": "04:00:00",
+            "t_string": "400",
+            "class": "RF",
+            "name": "M1 Garand",
+            "avatar": "avatar/3/M1.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "59",
+            "rarity": "★★★",
+            "timer": "05:20:00",
+            "t_string": "520",
+            "class": "MG",
+            "name": "Bren",
+            "avatar": "avatar/3/BrenMK.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "60",
+            "rarity": "★★★",
+            "timer": "05:40:00",
+            "t_string": "540",
+            "class": "MG",
+            "name": "M1919A4",
+            "avatar": "avatar/3/M1919A4.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "61",
+            "rarity": "★★★",
+            "timer": "05:50:00",
+            "t_string": "550",
+            "class": "MG",
+            "name": "MG42",
+            "avatar": "avatar/3/MG42.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "62",
+            "rarity": "★★★",
+            "timer": "06:10:00",
+            "t_string": "610",
+            "class": "MG",
+            "name": "M2HB ",
+            "avatar": "avatar/3/M2HB.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "63",
+            "rarity": "★★★",
+            "timer": "07:15:00",
+            "t_string": "715",
+            "class": "SG",
+            "name": "NS2000",
+            "avatar": "avatar/3/NS2000.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "64",
+            "rarity": "★★★",
+            "timer": "07:20:00",
+            "t_string": "720",
+            "class": "SG",
+            "name": "M500",
+            "avatar": "avatar/3/M500.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "65",
+            "rarity": "★★★",
+            "timer": "07:25:00",
+            "t_string": "725",
+            "class": "SG",
+            "name": "KS-23",
+            "avatar": "avatar/3/KS23.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "66",
+            "rarity": "★★★",
+            "timer": "07:30:00",
+            "t_string": "730",
+            "class": "SG",
+            "name": "M1897",
+            "avatar": "avatar/3/M1897.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "67",
+            "rarity": "★★★",
+            "timer": "07:30:00",
+            "t_string": "730",
+            "class": "SG",
+            "name": "RMB-93",
+            "avatar": "avatar/3/RMB93.png",
+            "color": "rgba(107, 223, 206, 0.8)"
+        },
+        {
+            "id": "68",
+            "rarity": "★★★★",
+            "timer": "00:49:00",
+            "t_string": "049",
+            "class": "HG",
+            "name": "Jericho",
+            "avatar": "avatar/4/Jericho.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "69",
+            "rarity": "★★★★",
+            "timer": "00:50:00",
+            "t_string": "050",
+            "class": "HG",
+            "name": "SAA",
+            "avatar": "avatar/4/M1873.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "70",
+            "rarity": "★★★★",
+            "timer": "00:50:00",
+            "t_string": "050",
+            "class": "HG",
+            "name": "Gr Mk23",
+            "avatar": "avatar/4/Mk23.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "71",
+            "rarity": "★★★★",
+            "timer": "00:50:00",
+            "t_string": "050",
+            "class": "HG",
+            "name": "Gr P30",
+            "avatar": "avatar/4/P30.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "72",
+            "rarity": "★★★★",
+            "timer": "00:52:00",
+            "t_string": "052",
+            "class": "HG",
+            "name": "Spitfire",
+            "avatar": "avatar/4/Spitfire.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "73",
+            "rarity": "★★★★",
+            "timer": "00:53:00",
+            "t_string": "053",
+            "class": "HG",
+            "name": "K5",
+            "avatar": "avatar/4/K5.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "74",
+            "rarity": "★★★★",
+            "timer": "00:55:00",
+            "t_string": "055",
+            "class": "HG",
+            "name": "Stechkin",
+            "avatar": "avatar/4/APS.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "75",
+            "rarity": "★★★★",
+            "timer": "00:55:00",
+            "t_string": "055",
+            "class": "HG",
+            "name": "P7",
+            "avatar": "avatar/4/P7.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "76",
+            "rarity": "★★★★",
+            "timer": "02:15:00",
+            "t_string": "215",
+            "class": "SMG",
+            "name": "UMP9",
+            "avatar": "avatar/4/UMP9.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "77",
+            "rarity": "★★★★",
+            "timer": "02:15:00",
+            "t_string": "215",
+            "class": "SMG",
+            "name": "UMP45",
+            "avatar": "avatar/4/UMP45.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "78",
+            "rarity": "★★★★",
+            "timer": "02:18:00",
+            "t_string": "218",
+            "class": "SMG",
+            "name": "PP-19-01",
+            "avatar": "avatar/4/PP1901.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "79",
+            "rarity": "★★★★",
+            "timer": "02:18:00",
+            "t_string": "218",
+            "class": "SMG",
+            "name": "Shipka",
+            "avatar": "avatar/4/Shipka.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "80",
+            "rarity": "★★★★",
+            "timer": "02:20:00",
+            "t_string": "220",
+            "class": "SMG",
+            "name": "PP-90",
+            "avatar": "avatar/4/PP90.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "81",
+            "rarity": "★★★★",
+            "timer": "02:20:00",
+            "t_string": "220",
+            "class": "SMG",
+            "name": "Gr MP5",
+            "avatar": "avatar/4/MP5.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "82",
+            "rarity": "★★★★",
+            "timer": "02:20:00",
+            "t_string": "220",
+            "class": "SMG",
+            "name": "KAC",
+            "avatar": "avatar/4/KAC.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "83",
+            "rarity": "★★★★",
+            "timer": "03:25:00",
+            "t_string": "325",
+            "class": "AR",
+            "name": "Type56-1",
+            "avatar": "avatar/4/56-1type.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "84",
+            "rarity": "★★★★",
+            "timer": "03:25:00",
+            "t_string": "325",
+            "class": "AR",
+            "name": "XM8",
+            "avatar": "avatar/4/XM8.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "85",
+            "rarity": "★★★★",
+            "timer": "03:25:00",
+            "t_string": "325",
+            "class": "AR",
+            "name": "SAR-21",
+            "avatar": "avatar/4/SAR21.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "86",
+            "rarity": "★★★★",
+            "timer": "03:30:00",
+            "t_string": "330",
+            "class": "AR",
+            "name": "AS Val",
+            "avatar": "avatar/4/ASVAL.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "87",
+            "rarity": "★★★★",
+            "timer": "03:30:00",
+            "t_string": "330",
+            "class": "AR",
+            "name": "Fr FAMAS",
+            "avatar": "avatar/4/FAMAS.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "88",
+            "rarity": "★★★★",
+            "timer": "03:30:00",
+            "t_string": "330",
+            "class": "AR",
+            "name": "TAR-21",
+            "avatar": "avatar/4/TAR21.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "89",
+            "rarity": "★★★★",
+            "timer": "03:35:00",
+            "t_string": "335",
+            "class": "AR",
+            "name": "9A-91",
+            "avatar": "avatar/4/9A91.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "90",
+            "rarity": "★★★★",
+            "timer": "03:35:00",
+            "t_string": "335",
+            "class": "AR",
+            "name": "EM-2",
+            "avatar": "avatar/4/EM2.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "91",
+            "rarity": "★★★★",
+            "timer": "03:35:00",
+            "t_string": "335",
+            "class": "AR",
+            "name": "CR21",
+            "avatar": "avatar/4/CR21.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "92",
+            "rarity": "★★★★",
+            "timer": "03:40:00",
+            "t_string": "340",
+            "class": "AR",
+            "name": "Gr G36",
+            "avatar": "avatar/4/G36.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "93",
+            "rarity": "★★★★",
+            "timer": "03:40:00",
+            "t_string": "340",
+            "class": "AR",
+            "name": "Ribeyrolles",
+            "avatar": "avatar/4/Ribeyrolles.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "94",
+            "rarity": "★★★★",
+            "timer": "04:04:00",
+            "t_string": "404",
+            "class": "RF",
+            "name": "4 Shiki",
+            "avatar": "avatar/4/4type.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "95",
+            "rarity": "★★★★",
+            "timer": "04:10:00",
+            "t_string": "410",
+            "class": "RF",
+            "name": "Mosin-Nagant",
+            "avatar": "avatar/4/M1891.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "96",
+            "rarity": "★★★★",
+            "timer": "04:10:00",
+            "t_string": "410",
+            "class": "RF",
+            "name": "T-5000",
+            "avatar": "avatar/4/T5000.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "97",
+            "rarity": "★★★★",
+            "timer": "04:15:00",
+            "t_string": "415",
+            "class": "RF",
+            "name": "SVD",
+            "avatar": "avatar/4/SVD.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "98",
+            "rarity": "★★★★",
+            "timer": "04:15:00",
+            "t_string": "415",
+            "class": "RF",
+            "name": "SPR A3G",
+            "avatar": "avatar/4/FNSPR.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "99",
+            "rarity": "★★★★",
+            "timer": "04:15:00",
+            "t_string": "415",
+            "class": "RF",
+            "name": "K31",
+            "avatar": "avatar/4/K31.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "100",
+            "rarity": "★★★★",
+            "timer": "04:20:00",
+            "t_string": "420",
+            "class": "RF",
+            "name": "Gr PSG-1",
+            "avatar": "avatar/4/PSG1.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "101",
+            "rarity": "★★★★",
+            "timer": "04:20:00",
+            "t_string": "420",
+            "class": "RF",
+            "name": "Gr G28",
+            "avatar": "avatar/4/G28.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "102",
+            "rarity": "★★★★",
+            "timer": "04:25:00",
+            "t_string": "425",
+            "class": "RF",
+            "name": "Springfield",
+            "avatar": "avatar/4/M1903.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "103",
+            "rarity": "★★★★",
+            "timer": "04:30:00",
+            "t_string": "430",
+            "class": "RF",
+            "name": "PTRD",
+            "avatar": "avatar/4/PTRD.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "104",
+            "rarity": "★★★★",
+            "timer": "04:30:00",
+            "t_string": "430",
+            "class": "RF",
+            "name": "PzB39",
+            "avatar": "avatar/4/PzB39.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "105",
+            "rarity": "★★★★",
+            "timer": "06:10:00",
+            "t_string": "610",
+            "class": "MG",
+            "name": "M60",
+            "avatar": "avatar/4/M60.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "106",
+            "rarity": "★★★★",
+            "timer": "06:15:00",
+            "t_string": "615",
+            "class": "MG",
+            "name": "Type80",
+            "avatar": "avatar/4/80type.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "107",
+            "rarity": "★★★★",
+            "timer": "06:20:00",
+            "t_string": "620",
+            "class": "MG",
+            "name": "Mk48",
+            "avatar": "avatar/4/MK48.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "108",
+            "rarity": "★★★★",
+            "timer": "06:20:00",
+            "t_string": "620",
+            "class": "MG",
+            "name": "AEK-999",
+            "avatar": "avatar/4/AEK999.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "109",
+            "rarity": "★★★★",
+            "timer": "06:25:00",
+            "t_string": "625",
+            "class": "MG",
+            "name": "M1918",
+            "avatar": "avatar/4/M1918.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "110",
+            "rarity": "★★★★",
+            "timer": "06:25:00",
+            "t_string": "625",
+            "class": "MG",
+            "name": "Ameli",
+            "avatar": "avatar/4/Ameli.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "111",
+            "rarity": "★★★★",
+            "timer": "06:25:00",
+            "t_string": "625",
+            "class": "MG",
+            "name": "Chauchat",
+            "avatar": "avatar/4/ChauchatM1915.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "112",
+            "rarity": "★★★★",
+            "timer": "06:30:00",
+            "t_string": "630",
+            "class": "MG",
+            "name": "PK",
+            "avatar": "avatar/4/PK.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "113",
+            "rarity": "★★★★",
+            "timer": "06:30:00",
+            "t_string": "630",
+            "class": "MG",
+            "name": "MG3",
+            "avatar": "avatar/4/MG3.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "114",
+            "rarity": "★★★★",
+            "timer": "07:14:00",
+            "t_string": "714",
+            "class": "SG",
+            "name": "M1014",
+            "avatar": "avatar/4/M1014.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "115",
+            "rarity": "★★★★",
+            "timer": "07:40:00",
+            "t_string": "740",
+            "class": "SG",
+            "name": "M590",
+            "avatar": "avatar/4/M590.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "116",
+            "rarity": "★★★★",
+            "timer": "07:40:00",
+            "t_string": "740",
+            "class": "SG",
+            "name": "SPAS-12",
+            "avatar": "avatar/4/SPAS12.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "117",
+            "rarity": "★★★★",
+            "timer": "07:45:00",
+            "t_string": "745",
+            "class": "SG",
+            "name": "M37",
+            "avatar": "avatar/4/Ithaca37.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "118",
+            "rarity": "★★★★",
+            "timer": "07:45:00",
+            "t_string": "745",
+            "class": "SG",
+            "name": "Liberator",
+            "avatar": "avatar/4/Liberator.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "119",
+            "rarity": "★★★★",
+            "timer": "07:50:00",
+            "t_string": "750",
+            "class": "SG",
+            "name": "Super-Shorty",
+            "avatar": "avatar/4/SuperShorty.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "120",
+            "rarity": "★★★★",
+            "timer": "07:55:00",
+            "t_string": "755",
+            "class": "SG",
+            "name": "USAS-12",
+            "avatar": "avatar/4/USAS12.png",
+            "color": "rgba(214, 227, 90, 0.8)"
+        },
+        {
+            "id": "121",
+            "rarity": "★★★★★",
+            "timer": "01:00:00",
+            "t_string": "100",
+            "class": "HG",
+            "name": "Welrod MkⅡ",
+            "avatar": "avatar/5/Welrod.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "122",
+            "rarity": "★★★★★",
+            "timer": "01:02:00",
+            "t_string": "102",
+            "class": "HG",
+            "name": "Contender",
+            "avatar": "avatar/5/Contender.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "123",
+            "rarity": "★★★★★",
+            "timer": "01:04:00",
+            "t_string": "104",
+            "class": "HG",
+            "name": "Px4 Storm",
+            "avatar": "avatar/5/Px4Storm.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "124",
+            "rarity": "★★★★★",
+            "timer": "01:05:00",
+            "t_string": "105",
+            "class": "HG",
+            "name": "M950A",
+            "avatar": "avatar/5/M950A.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "125",
+            "rarity": "★★★★★",
+            "timer": "01:05:00",
+            "t_string": "105",
+            "class": "HG",
+            "name": "NZ75",
+            "avatar": "avatar/5/NZ75.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "126",
+            "rarity": "★★★★★",
+            "timer": "01:09:00",
+            "t_string": "109",
+            "class": "HG",
+            "name": "C93",
+            "avatar": "avatar/5/C93.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "127",
+            "rarity": "★★★★★",
+            "timer": "01:10:00",
+            "t_string": "110",
+            "class": "HG",
+            "name": "Grizzly",
+            "avatar": "avatar/5/Grizzly.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "128",
+            "rarity": "★★★★★",
+            "timer": "01:15:00",
+            "t_string": "115",
+            "class": "HG",
+            "name": "PA-15",
+            "avatar": "avatar/5/PA15.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "129",
+            "rarity": "★★★★★",
+            "timer": "02:18:00",
+            "t_string": "218",
+            "class": "SMG",
+            "name": "Gr MP7",
+            "avatar": "avatar/5/MP7.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "130",
+            "rarity": "★★★★★",
+            "timer": "02:19:00",
+            "t_string": "219",
+            "class": "SMG",
+            "name": "100 Shiki",
+            "avatar": "avatar/5/Type100.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "131",
+            "rarity": "★★★★★",
+            "timer": "02:25:00",
+            "t_string": "225",
+            "class": "SMG",
+            "name": "Suomi",
+            "avatar": "avatar/5/KP31.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "132",
+            "rarity": "★★★★★",
+            "timer": "02:28:00",
+            "t_string": "228",
+            "class": "SMG",
+            "name": "C-MS",
+            "avatar": "avatar/5/CBJMS.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "133",
+            "rarity": "★★★★★",
+            "timer": "02:29:00",
+            "t_string": "229",
+            "class": "SMG",
+            "name": "P90",
+            "avatar": "avatar/5/P90.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "134",
+            "rarity": "★★★★★",
+            "timer": "02:30:00",
+            "t_string": "230",
+            "class": "SMG",
+            "name": "Thompson",
+            "avatar": "avatar/5/M1928A1.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "135",
+            "rarity": "★★★★★",
+            "timer": "02:30:00",
+            "t_string": "230",
+            "class": "SMG",
+            "name": "Gr G36c",
+            "avatar": "avatar/5/G36C.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "136",
+            "rarity": "★★★★★",
+            "timer": "02:33:00",
+            "t_string": "233",
+            "class": "SMG",
+            "name": "SR-3MP",
+            "avatar": "avatar/5/SR3MP.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "137",
+            "rarity": "★★★★★",
+            "timer": "02:35:00",
+            "t_string": "235",
+            "class": "SMG",
+            "name": "Vector",
+            "avatar": "avatar/5/Vector.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "138",
+            "rarity": "★★★★★",
+            "timer": "02:35:00",
+            "t_string": "235",
+            "class": "SMG",
+            "name": "Type79",
+            "avatar": "avatar/5/79type.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "139",
+            "rarity": "★★★★★",
+            "timer": "03:45:00",
+            "t_string": "345",
+            "class": "AR",
+            "name": "FAL",
+            "avatar": "avatar/5/FNFAL.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "140",
+            "rarity": "★★★★★",
+            "timer": "03:48:00",
+            "t_string": "348",
+            "class": "AR",
+            "name": "T91",
+            "avatar": "avatar/5/T91.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "141",
+            "rarity": "★★★★★",
+            "timer": "03:50:00",
+            "t_string": "350",
+            "class": "AR",
+            "name": "Type95",
+            "avatar": "avatar/5/95type.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "142",
+            "rarity": "★★★★★",
+            "timer": "03:50:00",
+            "t_string": "350",
+            "class": "AR",
+            "name": "Type97",
+            "avatar": "avatar/5/97type.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "143",
+            "rarity": "★★★★★",
+            "timer": "03:52:00",
+            "t_string": "352",
+            "class": "AR",
+            "name": "K2",
+            "avatar": "avatar/5/K2.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "144",
+            "rarity": "★★★★★",
+            "timer": "03:53:00",
+            "t_string": "353",
+            "class": "AR",
+            "name": "MDR",
+            "avatar": "avatar/5/MDR.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "145",
+            "rarity": "★★★★★",
+            "timer": "03:55:00",
+            "t_string": "355",
+            "class": "AR",
+            "name": "416",
+            "avatar": "avatar/5/HK416.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "146",
+            "rarity": "★★★★★",
+            "timer": "03:55:00",
+            "t_string": "355",
+            "class": "AR",
+            "name": "ADS",
+            "avatar": "avatar/5/ADSX.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "147",
+            "rarity": "★★★★★",
+            "timer": "03:56:00",
+            "t_string": "356",
+            "class": "AR",
+            "name": "SIG556",
+            "avatar": "avatar/5/SIG556.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "148",
+            "rarity": "★★★★★",
+            "timer": "03:58:00",
+            "t_string": "358",
+            "class": "AR",
+            "name": "Am RFB",
+            "avatar": "avatar/5/RFB.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "149",
+            "rarity": "★★★★★",
+            "timer": "04:04:00",
+            "t_string": "404",
+            "class": "AR",
+            "name": "Gr G11",
+            "avatar": "avatar/5/G11.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "150",
+            "rarity": "★★★★★",
+            "timer": "04:05:00",
+            "t_string": "405",
+            "class": "AR",
+            "name": "Gr G41",
+            "avatar": "avatar/5/G41.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "151",
+            "rarity": "★★★★★",
+            "timer": "04:05:00",
+            "t_string": "405",
+            "class": "AR",
+            "name": "Zas M21",
+            "avatar": "avatar/5/ZastavaM21.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "152",
+            "rarity": "★★★★★",
+            "timer": "04:06:00",
+            "t_string": "406",
+            "class": "AR",
+            "name": "64 Shiki",
+            "avatar": "avatar/5/Type64-AR.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "153",
+            "rarity": "★★★★★",
+            "timer": "04:08:00",
+            "t_string": "408",
+            "class": "AR",
+            "name": "HowaType89",
+            "avatar": "avatar/5/HowaType89.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "154",
+            "rarity": "★★★★★",
+            "timer": "04:09:00",
+            "t_string": "409",
+            "class": "AR",
+            "name": "AN-94",
+            "avatar": "avatar/5/AN94.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "155",
+            "rarity": "★★★★★",
+            "timer": "04:11:00",
+            "t_string": "411",
+            "class": "AR",
+            "name": "K11",
+            "avatar": "avatar/5/K11.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "156",
+            "rarity": "★★★★★",
+            "timer": "04:12:00",
+            "t_string": "412",
+            "class": "AR",
+            "name": "AK-12",
+            "avatar": "avatar/5/AK12.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "157",
+            "rarity": "★★★★★",
+            "timer": "04:15:00",
+            "t_string": "415",
+            "class": "AR",
+            "name": "AK15",
+            "avatar": "avatar/5/AK15.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "158",
+            "rarity": "★★★★★",
+            "timer": "04:32:00",
+            "t_string": "432",
+            "class": "RF",
+            "name": "M200",
+            "avatar": "avatar/5/M200.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "159",
+            "rarity": "★★★★★",
+            "timer": "04:38:00",
+            "t_string": "438",
+            "class": "RF",
+            "name": "Carcano M1891",
+            "avatar": "avatar/5/Carcano1891.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "160",
+            "rarity": "★★★★★",
+            "timer": "04:40:00",
+            "t_string": "440",
+            "class": "RF",
+            "name": "Kar98k",
+            "avatar": "avatar/5/98K.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "161",
+            "rarity": "★★★★★",
+            "timer": "04:42:00",
+            "t_string": "442",
+            "class": "RF",
+            "name": "Carcano M91/38",
+            "avatar": "avatar/5/Carcano1938.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "162",
+            "rarity": "★★★★★",
+            "timer": "04:45:00",
+            "t_string": "445",
+            "class": "RF",
+            "name": "NTW-20",
+            "avatar": "avatar/5/NTW20.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "163",
+            "rarity": "★★★★★",
+            "timer": "04:48:00",
+            "t_string": "448",
+            "class": "RF",
+            "name": "QBU-88",
+            "avatar": "avatar/5/QBU88.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "164",
+            "rarity": "★★★★★",
+            "timer": "04:50:00",
+            "t_string": "450",
+            "class": "RF",
+            "name": "WA2000",
+            "avatar": "avatar/5/WA2000.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "165",
+            "rarity": "★★★★★",
+            "timer": "04:52:00",
+            "t_string": "452",
+            "class": "RF",
+            "name": "IWS 2000",
+            "avatar": "avatar/5/IWS2000.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "166",
+            "rarity": "★★★★★",
+            "timer": "04:55:00",
+            "t_string": "455",
+            "class": "RF",
+            "name": "M99",
+            "avatar": "avatar/5/M99.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "167",
+            "rarity": "★★★★★",
+            "timer": "05:00:00",
+            "t_string": "500",
+            "class": "RF",
+            "name": "Lee Enfield",
+            "avatar": "avatar/5/MLEMK1.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "168",
+            "rarity": "★★★★★",
+            "timer": "06:16:00",
+            "t_string": "616",
+            "class": "MG",
+            "name": "RPK16",
+            "avatar": "avatar/5/RPK16.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "169",
+            "rarity": "★★★★★",
+            "timer": "06:28:00",
+            "t_string": "628",
+            "class": "MG",
+            "name": "QJY-88",
+            "avatar": "avatar/5/Type88.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "170",
+            "rarity": "★★★★★",
+            "timer": "06:35:00",
+            "t_string": "635",
+            "class": "MG",
+            "name": "Negev",
+            "avatar": "avatar/5/NEGEV.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "171",
+            "rarity": "★★★★★",
+            "timer": "06:36:00",
+            "t_string": "636",
+            "class": "MG",
+            "name": "Gr MG36",
+            "avatar": "avatar/5/MG36.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "172",
+            "rarity": "★★★★★",
+            "timer": "06:40:00",
+            "t_string": "640",
+            "class": "MG",
+            "name": "Gr MG4",
+            "avatar": "avatar/5/MG4.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "173",
+            "rarity": "★★★★★",
+            "timer": "06:45:00",
+            "t_string": "645",
+            "class": "MG",
+            "name": "Gr MG5",
+            "avatar": "avatar/5/MG5.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "174",
+            "rarity": "★★★★★",
+            "timer": "06:50:00",
+            "t_string": "650",
+            "class": "MG",
+            "name": "PKP",
+            "avatar": "avatar/5/PKP.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "175",
+            "rarity": "★★★★★",
+            "timer": "08:00:00",
+            "t_string": "800",
+            "class": "SG",
+            "name": "Am KSG",
+            "avatar": "avatar/5/KSG.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "176",
+            "rarity": "★★★★★",
+            "timer": "08:05:00",
+            "t_string": "805",
+            "class": "SG",
+            "name": "Saiga-12",
+            "avatar": "avatar/5/Saiga12.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "177",
+            "rarity": "★★★★★",
+            "timer": "08:06:00",
+            "t_string": "806",
+            "class": "SG",
+            "name": "FP-6",
+            "avatar": "avatar/5/FP6.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "178",
+            "rarity": "★★★★★",
+            "timer": "08:10:00",
+            "t_string": "810",
+            "class": "SG",
+            "name": "S.A.T.8",
+            "avatar": "avatar/5/SAT8.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "179",
+            "rarity": "★★★★★",
+            "timer": "08:12:00",
+            "t_string": "812",
+            "class": "SG",
+            "name": "AA-12",
+            "avatar": "avatar/5/AA12.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "180",
+            "rarity": "★★★★★",
+            "timer": "08:13:00",
+            "t_string": "813",
+            "class": "SG",
+            "name": "DP12",
+            "avatar": "avatar/5/DP12.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        },
+        {
+            "id": "181",
+            "rarity": "★★★★★",
+            "timer": "08:15:00",
+            "t_string": "815",
+            "class": "SG",
+            "name": "HKCAWS",
+            "avatar": "avatar/5/HKCAWS.png",
+            "color": "rgba(255, 182, 0, 0.8)"
+        }
+    ]
