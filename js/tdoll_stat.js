@@ -11,6 +11,13 @@ SearchBar.addEventListener('keyup', (e) => {
             Tdoll.t_string.toLowerCase().includes(searchString)
         );
     });
+    Filtered_TDoll.sort(function(a, b) {
+        if (a.rarity === b.rarity) 
+             return 0;
+    
+        return b.rarity > a.rarity ? 1 : -1;
+    });
+
     Display_TDoll(Filtered_TDoll);
 });
 
