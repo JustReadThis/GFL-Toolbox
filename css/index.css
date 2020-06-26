@@ -109,15 +109,9 @@ h1 {
 
 #Event_List {
   max-width: 1100px;
-  
   margin: auto auto 20px auto;
-  padding-inline-start: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit);
-  grid-gap: 20px;
   border: 1px solid #eaeaea;
  
-
 }
 
 div.Title {
@@ -128,25 +122,26 @@ div.Title {
   text-align: center;
 }
 
-div.kotak{
-  display: inline-block;
-  border: 1px solid #eaeaea;
-  margin-bottom: 8px;
-}
-
-.Eventnya {
-  
-  list-style-type: none;
+.Eventnya { 
   background-color: rgba(255, 255, 255, 0.16);
- 
   border-radius: 3px;
-  
-  text-align: left;
   margin: auto;
   width: 100%;
   padding: 10px; 
+  justify-content: center; 
+  align-items: center;
+}
 
+.Eventnya > ul{
 
+  font-size: 25px;
+  color: #eee;
+  margin: 10px 5px 5px 5px;
+}
+
+.Eventnya  > ul > li{
+  font-size: 18px;
+  color: #eee;
 }
 
 .Eventnya > p1 { /* p1 chara class */
@@ -166,49 +161,29 @@ div.kotak{
 
 }
 
-
-img{
-  border: 1px solid #eaeaea;
-  margin: 10px;
-  margin-bottom: 0px;
+.box-listitem {
+  display:inline-block;
+  width:350px;
+  vertical-align: top;
+  justify-content: center; 
+  align-items: center;
 }
+
+.box-listitem > ul{
+
+  font-size: 25px;
+  color: #eee;
+  margin: 10px 5px 5px 5px;
+}
+
+.box-listitem  > ul > li{
+  font-size: 18px;
+  color: #eee;
+}
+
  /*                       blabla Section End                          */
 
 
-/*                       Date Section Start                           */
-  .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-    font-size: 20px;
-    color: #eee;
-    font-weight: bold;
-    opacity:1;
-  }
-  
-  .tooltip .tooltiptext {
-    font-size: 15px;
-    visibility: hidden;
-    width: 200px;
-    background-color: rgb(41 41 41);
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
-
-  /*                       Date Section End                           */
 
   /*                       Footer Section End                           */
   .footer {

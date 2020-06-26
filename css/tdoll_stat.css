@@ -1,0 +1,418 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(18, 18, 18, 0.9);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*                       Navbar Section Start                           */
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(75, 75, 75);
+
+}
+
+.navbar_center{
+ 
+  max-width: 1100px;
+  margin: auto auto 20px auto;
+  
+  }
+  
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: rgb(219 219 219);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: rgb(219 219 219);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-weight: bold;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(18, 18, 18, 0.5);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(75, 75, 75);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(219 219 219);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgba(18, 18, 18, 0.5);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+/*                       Navbar Section End                          */
+
+
+
+h1 {
+    color: #eee;
+    margin-bottom: 30px;
+}
+
+.container {
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    max-width: 1050px;
+    text-align: center;
+   
+}
+
+#TDoll_List {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 130px));
+    grid-gap: 20px;
+    
+}
+
+.Tdoll {
+    display: grid;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.16);
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+  
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        'name'
+        'image'
+        'timer';
+        
+}
+
+.Tdoll > h2 {
+    grid-area: name;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    opacity:0.8;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 129px; 
+    border: 1px solid #eaeaea;
+    text-decoration: none;
+}
+
+.Tdoll > h2:hover {
+    overflow: visible;
+  }
+
+.Tdoll > img {
+    grid-area: image;
+    display: block;
+    border: 1px solid #eaeaea;
+   
+}
+
+.Tdoll > p1 { /* p1 chara class */
+    grid-area: image;
+    margin: 1px 0px 0px 1px;
+    padding-left: 2px;
+    font-size: 20px;
+    color: #121212;
+    font-weight: bold;
+    opacity:1;
+    width: 50px; 
+    height: 26px;
+    
+    text-align: left;
+    border: 1px solid #121212;
+}
+
+.Tdoll > span { /* p2 rarity class */
+  display:inline-block;
+    grid-area: image;
+    margin: 225px 3px 0px 0px;
+    font-size: 23px;
+ 
+    font-weight: bold;
+    opacity:1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+ 
+    justify-content: right; 
+    align-items: right;
+    text-align: right;
+
+}
+
+.Tdoll > p3 {  /* p3 timer class */
+    grid-area: timer;
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    opacity:0.8;
+    width: 130px; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+label{
+  color:#fff;
+}
+
+/*                       SearchBar Section Start                           */
+#SearchBar {
+    width: 100%;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+#SearchWrapper {
+    position: relative;
+}
+
+#SearchWrapper::after {
+    content: '🔍';
+    position: absolute;
+    top: 7px;
+    right: 15px;
+}
+/*                       SearchBar Section End                           */
+
+
+/*                       Footer Section End                           */
+  .footer {
+    
+    left: 0;
+    bottom: 0;
+    margin-bottom:  5px;
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    text-align: center;
+
+    float: left;
+    font-size: 12px;
+    color: rgb(219 219 219);
+    text-decoration: none;
+    
+ }
+ /*                       Footer Section End                           */
+
+ .button-flat {
+	border: 1px solid rgb(75, 75, 75);        /* border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
+	background-color: rgb(75, 75, 75);      /* ubah warna background */
+	color:#eee;                /* ubah warna font */
+	font-size: 16px;                  /* ubah ukuran font */
+	padding: 0.5em 1em 0.5em 1em;     /* padding: top right bottom left; */
+}
+.button-flat:hover {
+  border: 1px solid #eee;  
+  background-color: rgb(41, 41, 41);                     /* ubah tingkat transparansi saat cursor menuju button. 0.0 s.d 1.0 */
+}
+.button-flat:active {
+	background: rgb(41, 41, 41);               /* ubah background saat button ditekan */
+}
+
+
+.active{
+  border: 1px solid #eee;  
+  background-color: rgb(41, 41, 41); 
+ 
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+ 
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 50px 0px 0px 0px;
+  padding: 20px;
+  background:#4B4B4B;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  
+}
+
+
+
+.popup .close {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: orange;
+}
+
+.popup .content {
+  max-height: 100%;
+  overflow: auto;
+}
+
+
+
+.tdoll2{
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(9, 35px);
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 10px;
+  
+}
+
+.tdoll-item{
+  background: #4B4B4B;
+    color: rgb(219 219 219);
+  font-weight:font-bold;
+  display: flex;
+ 
+}
+.panjang1{
+  
+  padding-left: 10px;
+  padding-right:10px;
+  align-items: center;
+  grid-row: span 1;
+  grid-column: span 1;
+  border: 1px solid #eee;  
+}
+
+.panjang2{
+  padding-right:10px;
+  align-items: center;
+  grid-row: span 1;
+  grid-column: span 7;
+  border: 1px solid #eee;  
+}
+
+.panjang3{
+  padding-left:10px;
+  grid-row: span 2;
+  grid-column: span 3;
+  border: 1px solid #eee;  
+}
+.panjang4{
+  padding-left:10px;
+  grid-row: span 2;
+  grid-column: span 6;
+  border: 1px solid #eee;  
+}
+
+.panjang5{
+  padding-left:10px;
+  grid-row: span 6;
+  grid-column: span 1;
+  border: 1px solid #eee;  
+}
+
+.panjang5s{
+  padding-left:10px;
+  grid-row: span 6;
+  grid-column: span 2;
+  border: 1px solid #eee;  
+}
+
+.panjang6{
+  grid-row: span 6;
+  grid-column: span 6;
+  border: 1px solid #eee;  
+}
+
+
+.panjang2 > p2, p3{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+    /* color: #FFB200; */
+    font-weight: bold;
+  text-align: left;
+}
+
+
+table{
+  width: 75px;
+  height: 75px;
+  background-color:#6B696B;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  color:rgba(0,0,0,0);
+}
+
+.skillicon{
+  margin-left: 10px;
+  margin-top: 5px;
+  border: 1px solid #eee;  
+}
