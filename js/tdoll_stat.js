@@ -230,7 +230,11 @@ function Popup_Sensor(li) {
     });
     Display_TDoll2(Filtered_TDoll);
     location.href = "#popup1";
+document.body.style.overflowY='hidden';
+}
 
+function Exit_Sensor() {
+document.body.style.overflowY='';
 }
 
 
