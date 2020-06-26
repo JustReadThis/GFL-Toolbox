@@ -317,7 +317,17 @@ label{
   overflow: auto;
 }
 
-
+@media (max-width: 700px) {
+  .tdoll2{
+    display: grid;
+    height: 100%;
+    width: 1000px;
+    grid-template-rows: repeat(9, 35px);
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px;
+    
+  }
+}
 
 .tdoll2{
   display: grid;
