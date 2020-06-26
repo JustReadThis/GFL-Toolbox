@@ -81,9 +81,22 @@ function Selector_Button() {
         }
     });
     // Display_TDoll(Filtered_TDoll);
-    console.log(Filtered_TDoll.sort((a,b) => b.rarity > a.rarity));
-    const ampas = (Filtered_TDoll.sort((a,b) => b.rarity > a.rarity));
-    Display_TDoll(ampas);
+    console.log(Filtered_TDoll.sort((a,b) => b.rarity > a.rarity ));
+   // const ampas = (Filtered_TDoll.sort((a,b) => b.rarity > a.rarity));
+   Filtered_TDoll.sort(function(a, b) {
+    if ( b.rarity > a.rarity) {
+      return 1;
+    }
+    if ( b.rarity < a.rarity) {
+      return -1;
+    }
+  
+    // names must be equal
+    return 0;
+  });
+       
+    
+   Display_TDoll(Filtered_TDoll);
 
 }
 
