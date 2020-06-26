@@ -84,16 +84,12 @@ function Selector_Button() {
     console.log(Filtered_TDoll.sort((a,b) => b.rarity > a.rarity ));
    // const ampas = (Filtered_TDoll.sort((a,b) => b.rarity > a.rarity));
    Filtered_TDoll.sort(function(a, b) {
-    if ( b.rarity - a.rarity) {
-      return 1;
-    }
-    if ( a.rarity - b.rarity) {
-      return -1;
-    }
-  
-    // names must be equal
-    return 0;
-  });
+    if (a.rarity === b.rarity) 
+         return 0;
+
+    return b.rarity > a.rarity ? 1 : -1;
+});
+    
        
     
    Display_TDoll(Filtered_TDoll);
