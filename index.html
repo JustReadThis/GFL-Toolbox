@@ -8,10 +8,10 @@
   <title>GFL-Toolbox</title>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-  <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> 
+  <!-- <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
   <script src="https://unpkg.com/dayjs-plugin-utc"></script>
-  <script src="https://unpkg.com/dayjs-precise-range@1.0.1/precise-range.js"></script>
+  <script src="https://unpkg.com/dayjs-precise-range@1.0.1/precise-range.js"></script> -->
 
 
 </head>
@@ -20,75 +20,102 @@
 
   <div class="navbar">
     <div class="navbar_center">
-    <a href="index.html">Home</a>
-    <div class="dropdown">
-      <button class="dropbtn">Quick Info &nbsp;
-        <i class="fas fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="tdoll_stat.html">T-Doll</a>
-        <a href="#">coming soon</a>
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Quick Info &nbsp;
+          <i class="zmdi zmdi-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="tdoll_stat.html">T-Doll</a>
+          <a href="#">coming soon</a>
+        </div>
       </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Build Timer[OUTDATE] &nbsp;
+          <i class="zmdi zmdi-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+
+          <a href="equip_timer.html">Equip</a>
+          <a href="#">coming soon</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  
+<div class="container">
+
+  <div class="title">
+    <h1>GFL-Toolbox (temp)* </h1>
+<p1>
+  *I used to be too ambitious about this project, now I'm trying to remodel and tidy it up one by one when I'm free .
+</p1>
+
+  </div>
+  <div class="content_place">
+
+    <div class="tool1">
+      <h2>Tdoll Quick Info  <a href="tdoll_stat.html" class="linkgo" target="_self"><i class="zmdi zmdi-long-arrow-right"></i></a>   </h2>
+      <div class="tool_pic">
+        <img style="background: url(prev_tool/prev_tool1.webp) no-repeat; width: 480px;  height: 240px; transition: .2s; transition-timing-function: linear; cursor: pointer;" onmouseover="Sprite_MouseOver(this)" onmouseout="Sprite_MouseOut(this)"></img>
+      </div>
+
+      <h3>Feature:</h3>
+      <ul>
+        <li>Can filter tdoll by class, rarity, and buff tile effect</li>
+        <li>Buff tile and effect can be showned while searching</li>
+        <li>Search bar used name or build timer as filter</li>
+        <li>Neural upgrade/mod tdoll show skill 1 and 2 at the same time and page</li>
+      </ul>  
+      
     </div>
 
-    <div class="dropdown">
-      <button class="dropbtn">Build Timer &nbsp;
-        <i class="fas fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="tdoll_timer.html">T-Doll</a>
-        <a href="equip_timer.html">Equip</a>
-        <a href="#">coming soon</a>
+    <div class="tool2">
+      <h2>Equip & Fairy Build Timer [OUTDATE]   <a href="equip_timer.html" class="linkgo" target="_self"><i class="zmdi zmdi-long-arrow-right"></i></a>   </h2>
+      <div class="tool_pic">
+        <img style="background: url(prev_tool/prev_tool2.webp) no-repeat; width: 480px;  height: 240px; transition: .2s; transition-timing-function: linear; cursor: pointer;" onmouseover="Sprite_MouseOver(this)" onmouseout="Sprite_MouseOut(this)"></img>
       </div>
+
+      <h3>Feature:</h3>
+      <ul>
+        <li>Search bar used name or build timer as filter</li>
+        <li>Equipment and Fairy build timer combined</li>
+        <li>not much, rework needed...</li>
+      </ul>  
     </div>
 
-    <a href="en_event.html">EN Event</a>
+  </div>
+
+  <div class="todo_list">
+    <h2>To-do List</h2>
+    <ul>
+      <li>Compare status of item (example: tdoll x tdoll)</li>
+      <li>Equip & fairy database (rework and update)</li>
+      <li>Protocol assimilation database</li>
+      <li>Mobile friendly design/layout</li>
+    </ul>  
+
+  </div>
+  <div class="contact">
+    <h2>Contact</h2>
+    <ul style="list-style-type:none;" class="list_contact">
+      <li><i class="zmdi zmdi-github zmdi-hc-2x"></i>&nbsp; <a href="https://github.com/JustReadThis/GFL-Toolbox" class="linkcontact" target="_blank">JustReadThis</a>  &nbsp;[REPO]</li>
+     
+    </ul> 
   </div>
 </div>
 
-  <div class="container">
-    <h1>GFL-Toolbox (temp) </h1>
 
-  </div>
-  <div id="Event_List">
-    <div class="Eventnya">
-<p2>Hello fellow SKK,</p2><br>
-<p2>Let's get to the point. What can this site offer you?<br></p2>
-<div class="box-listitem">
-  <ul>Quick Info 
-    <li>Quickly view information of selected items</li>
-    <li>Currently available items: t-doll</li>
-  </ul>
-  </div>
-  
-  <div class="box-listitem">
-  <ul>Build Timer
-    <li>Give information of selected items build timer</li>
-    <li>Currently available items: t-doll, equipment (including fairy)</li>
-  </ul>
-  </div>
-  
-  <div class="box-listitem">
-  <ul>EN Event
-    <li>Give information of event that currently occur on EN server</li>
-  </ul>
-  </div>
-  
-  <br><br><p2>What's my next target ?<br></p2>
-  <ul>To do list
-    <li>Comparing between same type items, for example comparing t-doll a status with t-doll b </li>
-    <li>added later...</li>
-  </ul>
-  </div>
 
-    </div>
-
-    
-</div>
-
-  <script src="sjs/news.js"></script>
+<script src="js/index.js"></script>
   <div class="footer">
-    Girls' Frontline is Copyright SUNBORN Network Technology Co., Ltd. All images and names owned and trademarked by SUNBORN Network Technology Co., Ltd. are property of SUNBORN Network Technology Co., Ltd.
+    Girls' Frontline is Copyright SUNBORN Network Technology Co., Ltd. All images and names owned and trademarked by
+    SUNBORN Network Technology Co., Ltd. are property of SUNBORN Network Technology Co., Ltd.
+    <br> This site are fanproject and I also not affiliated with it(mentioned above).
   </div>
 </body>
 

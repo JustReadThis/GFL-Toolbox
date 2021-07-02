@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>T-Doll Build Timer</title>
+    <title>T-Doll Quick Info</title>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/tdoll_stat.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> 
 
 </head>
 
@@ -19,7 +19,7 @@
         <a href="index.html">Home</a>
         <div class="dropdown">
           <button class="dropbtn">Quick Info &nbsp;
-            <i class="fas fa-caret-down"></i>
+            <i class="zmdi zmdi-chevron-down"></i>
           </button>
           <div class="dropdown-content">
             <a href="tdoll_stat.html">T-Doll</a>
@@ -28,22 +28,22 @@
         </div>
 
         <div class="dropdown">
-          <button class="dropbtn">Build Timer &nbsp;
-            <i class="fas fa-caret-down"></i>
+          <button class="dropbtn">Build Timer[OUTDATE] &nbsp;
+            <i class="zmdi zmdi-chevron-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="tdoll_timer.html">T-Doll</a>
+            
             <a href="equip_timer.html">Equip</a>
             <a href="#">coming soon</a>
           </div>
         </div>
 
-        <a href="en_event.html">EN Event</a>
+        
       </div>
     </div>
 
     <div class="container">
-        <h1>T-Doll Quick Status</h1>
+        <h1>T-Doll Quick Info</h1>
 
         <form class="demoForm" id="demoForm">
         <button type="button" name="BT[]"class="button-flat" value="HG">HG</button>&nbsp;
@@ -52,9 +52,196 @@
         <button type="button" name="BT[]"class="button-flat" value="RF">RF</button>&nbsp;
         <button type="button" name="BT[]"class="button-flat" value="MG">MG</button>&nbsp;
         <button type="button" name="BT[]"class="button-flat" value="SG">SG</button>&nbsp;
-        <button type="button" name="BT[]"class="button-flat" value="Clear">Clear</button>
-                
+        <button type="button" name="BT[]"class="button-flat2" value="Clear">Clear</button>
+
+        <label>
+          <input type="checkbox" id="cb_setting" name="CB_Setting" value="a" onclick="getSetting()">
+          <span class="spantext">
+            <i class="zmdi zmdi-settings"></i>
+          </span>
+        </label>&nbsp;        
       </form>
+      <br>
+
+<div class="huge_box_cont">
+<div class="title_mod">
+  <p4>Catagory Modifier</p4>
+</div>
+
+<!-- array preview -->
+<div class="box_cont">
+
+  <div class="start_box_part">
+    <span class="sp_filter">Preview info:</span>
+  </div>
+
+  <div class="mid_box_part">
+    <label>
+      <input type="checkbox" id="cb0a" name="BBT" value="^hide" onclick="getValuePrev()">
+      <span class="spantext">Buff tile</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb0b" name="BBI" value="^hide" onclick="getValuePrev()">
+      <span class="spantext">Buff info</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb0c" name="BCC" value="^hide" onclick="getValueCrossCatagory()">
+      <span class="spantext">Precise 2 buff</span>
+    </label>&nbsp;
+  </div>
+
+  <div class="end_box_part">
+    <label class="lb_clear">
+      <input type="checkbox" id="cb0clear" name="Clear" value="clear" onclick="getValuePrevClear()">
+      <span class="sp_clear">Clear</span> 
+  </label>
+  </div>
+
+</div>
+<!-- array preview --> 
+
+
+<!-- array class -->
+<div class="box_cont">
+
+  <div class="start_box_part">
+    <span class="sp_filter">Class:</span>
+  </div>
+
+  <div class="mid_box_part">
+    <label>
+      <input type="checkbox" id="cb1" name="HG" value="^HG$" onclick="getValue()">
+      <span class="spantext">HG</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb2" name="SMG" value="^SMG$" onclick="getValue()">
+      <span class="spantext">SMG</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb3" name="AR" value="^AR$" onclick="getValue()">
+      <span class="spantext">AR</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb4" name="RF" value="^RF$" onclick="getValue()">
+      <span class="spantext">RF</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb5" name="MG" value="^MG$" onclick="getValue()">
+      <span class="spantext">MG</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb6" name="SG" value="^SG$" onclick="getValue()">
+      <span class="spantext">SG</span>
+    </label>&nbsp;
+  </div>
+
+<div class="end_box_part">
+  <label class="lb_clear">
+    <input type="checkbox" id="cb7" name="Clear" value="^$" onclick="getValue()">
+    <span class="sp_clear">Clear</span> 
+</label>
+</div>
+
+</div>
+<!-- array class --> 
+<br>
+<!-- array rarity -->
+<div class="box_cont">
+
+  <div class="start_box_part">
+    <span class="sp_filter">Rarity:</span>
+  </div>
+
+  <div class="mid_box_part">
+    <label>
+      <input type="checkbox" id="cb8" name="6star" value="^★★★★★★$" onclick="getValue()">
+      <span class="spantext">6-Star</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb9" name="5star" value="^★★★★★$" onclick="getValue()">
+      <span class="spantext">5-Star</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb10" name="4star" value="^★★★★$" onclick="getValue()">
+      <span class="spantext">4-Star</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb11" name="3star" value="^★★★$" onclick="getValue()">
+      <span class="spantext">3-Star</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb12" name="2star" value="^★★$" onclick="getValue()">
+      <span class="spantext">2-Star</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb13" name="Extra" value="^Extra$" onclick="getValue()">
+      <span class="spantext">Special</span>
+    </label>&nbsp;
+  </div>
+
+<div class="end_box_part">
+  <label class="lb_clear">
+    <input type="checkbox" id="cb14" name="Clear" value="^$" onclick="getValue()">
+    <span class="sp_clear">Clear</span> 
+</label>
+</div>
+
+</div>
+<!-- array rarity --> 
+<br>
+<!-- array buff effect -->
+<div class="box_cont">
+
+  <div class="start_box_part">
+    <span class="sp_filter">Buff effect:</span>
+  </div>
+
+  <div class="mid_box_part">
+    <label>
+      <input type="checkbox" id="cb15" name="Danage" value="^Damage$" onclick="getValue()">
+      <span class="spantext">Damage</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb16" name="RoF" value="^Rate of Fire$" onclick="getValue()">
+      <span class="spantext">Rate of fire</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb17" name="Eva" value="^Evasion$" onclick="getValue()">
+      <span class="spantext">Evasion</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb18" name="Acc" value="^Accuracy$" onclick="getValue()">
+      <span class="spantext">Accuracy</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb19" name="SCd" value="^Skill Cooldown$" onclick="getValue()">
+      <span class="spantext">Skill cooldown</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb20" name="Crit" value="^Crit Rate$" onclick="getValue()">
+      <span class="spantext">Crit rate</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb21" name="Armor" value="^Armor$" onclick="getValue()">
+      <span class="spantext">Armor</span>
+    </label>&nbsp;
+
+  </div>
+
+<div class="end_box_part">
+  <label class="lb_clear">
+    <input type="checkbox" id="cb22" name="Clear" value="^$" onclick="getValue()">
+    <span class="sp_clear">Clear</span> 
+</label>
+</div>
+
+</div>
+<!-- array rarity --> 
+
+
+</div>
+
+    <br>
       <br>
         <div id="SearchWrapper">
          
@@ -65,8 +252,10 @@
     </div>
     <div id="popup1" class="overlay">
       <div class="popup">
-        &nbsp
+        <!--
         <a class="close" href="#" onclick="Exit_Sensor()">×</a>
+        -->
+        <span class="close" onclick="Exit_Sensor(this)">&times</span>
         <div class="content">
           <ul id="TDoll_List2" style="list-style-type:none; padding: 0; margin: 0; text-align: left;"></ul>
 
@@ -77,6 +266,7 @@
     <script src="js/tdoll_stat.js"></script>
     <div class="footer">
         Girls' Frontline is Copyright SUNBORN Network Technology Co., Ltd. All images and names owned and trademarked by SUNBORN Network Technology Co., Ltd. are property of SUNBORN Network Technology Co., Ltd.
+      <br> This site are fanproject and I also not affiliated with it(mentioned above).
       </div>
 </body>
 

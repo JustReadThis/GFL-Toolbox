@@ -169,7 +169,39 @@ h1 {
     border: 1px solid #121212;
 }
 
-.Tdoll > span { /* p2 rarity class */
+
+.Tdoll > .span_buff_block { /* p2 rarity class */
+user-select: none;
+  /* background: rgba(41, 41, 41, 0.9); */
+  color: #eee;
+  /* border: 1px solid red; */
+    grid-area: image;
+    margin: 72px 3px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+height:80px;
+width: 85px;
+display:none; 
+
+}
+
+
+.Tdoll > .span_buff_text { /* p2 rarity class */
+
+  background: rgba(41, 41, 41, 0.8);
+  color: #eee;
+  /* border: 1px solid red; */
+    grid-area: image;
+    margin: 152px 3px 0px 0px;
+    font-size: 15px;
+ 
+    font-weight: bold;
+height:80px;
+display:none;  
+}
+
+
+.Tdoll > .span_rarity { /* p2 rarity class */
   display:inline-block;
     grid-area: image;
     margin: 225px 3px 0px 0px;
@@ -245,14 +277,17 @@ label{
  }
  /*                       Footer Section End                           */
 
- .button-flat {
+ .button-flat, .button-flat2, .button-flat3 {
 	border: 1px solid rgb(75, 75, 75);        /* border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
 	background-color: rgb(75, 75, 75);      /* ubah warna background */
 	color:#eee;                /* ubah warna font */
 	font-size: 16px;                  /* ubah ukuran font */
 	padding: 0.5em 1em 0.5em 1em;     /* padding: top right bottom left; */
+  margin-left: 1px;
+  margin-right:1px;
+
 }
-.button-flat:hover {
+:is(.button-flat, .button-flat2, .button-flat3):hover {
   border: 1px solid #eee;  
   background-color: rgb(41, 41, 41);                     /* ubah tingkat transparansi saat cursor menuju button. 0.0 s.d 1.0 */
 }
@@ -267,30 +302,36 @@ label{
  
 }
 
+.button-flat2{
+  margin-left: 5px;
+  margin-right:2px;
+
+}
+.button-flat3{
+  margin-left: 2px;
+  margin-right:5px;
+}
 
 .overlay {
+  display:none;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
- 
-  visibility: hidden;
-  opacity: 0;
+  overflow: auto;
+  width:100%;
 }
 
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
+
 
 .popup {
-  margin: 50px 0px 0px 0px;
-  padding: 20px;
-  background:#4B4B4B;
+  margin: 20px 0px 0px 10px;
+  padding: 25px 20px 20px 20px;
+  /* background:#4B4B4B; */
   border-radius: 5px;
-  width: 100%;
+  width: 98%;
   position: relative;
   
 }
@@ -299,17 +340,26 @@ label{
 
 .popup .close {
   position: absolute;
-  top: 0px;
-  right: 30px;
+  top: -15px;
+  right: 10px;
   transition: all 200ms;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #eee;
 }
 
 .popup .close:hover {
-  color: orange;
+
+ text-align: center;
+
+
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  color: #eee; 
+  border: 1px solid #eee;  
+  
 }
 
 .popup .content {
@@ -345,8 +395,7 @@ label{
   display: flex;
  
 }
-.panjang1{
-  
+.blok-id, .blok-type{
   padding-left: 10px;
   padding-right:10px;
   align-items: center;
@@ -355,7 +404,7 @@ label{
   border: 1px solid #eee;  
 }
 
-.panjang2{
+.blok-name{
   padding-right:10px;
   align-items: center;
   grid-row: span 1;
@@ -363,41 +412,49 @@ label{
   border: 1px solid #eee;  
 }
 
-.panjang3{
-  padding-left:10px;
-  grid-row: span 2;
-  grid-column: span 3;
-  border: 1px solid #eee;  
-}
-.panjang4{
-  padding-left:10px;
-  grid-row: span 2;
-  grid-column: span 6;
-  border: 1px solid #eee;  
-}
-
-.panjang5{
+.blok-avatar{
   padding-left:10px;
   grid-row: span 6;
   grid-column: span 1;
   border: 1px solid #eee;  
 }
 
-.panjang5s{
+.blok-status{
   padding-left:10px;
   grid-row: span 6;
   grid-column: span 2;
   border: 1px solid #eee;  
 }
 
-.panjang6{
+.blok-skill{
   grid-row: span 6;
   grid-column: span 6;
   border: 1px solid #eee;  
 }
 
+.blok-skill2{
+  grid-row: span 6;
+  grid-column: span 6;
+  border: 1px solid #eee;  
+  display:none;
+}
 
-.panjang2 > p2, p3{
+.blok-buff{
+  padding-top: 7px;
+  padding-left:10px;
+  grid-row: span 3;
+  grid-column: span 3;
+  border: 1px solid #eee;  
+}
+
+.blok-other{
+  padding-left:10px;
+  grid-row: span 3;
+  grid-column: span 3;
+  border: 1px solid #eee;  
+}
+
+.blok-name > p2, p3{
   margin-left: 10px;
   margin-right: 10px;
   font-size: 25px;
@@ -411,6 +468,7 @@ table{
   width: 75px;
   height: 75px;
   background-color:#6B696B;
+  user-select: none;
 }
 
 table, th, td {
@@ -425,4 +483,109 @@ td{
   margin-left: 10px;
   margin-top: 5px;
   border: 1px solid #eee;  
+}
+
+h3 {
+
+
+  font-size: 25px;
+    /* color: #FFB200; */
+    font-weight: bold;
+  text-align: left;
+}
+
+p4{
+  margin: 2px 2px 2px 2px;
+  font-size: 20px;
+  color: #eee;
+  font-weight: bold;
+  width: 200px; 
+  height: 26px;
+
+}
+
+.title_mod{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_cont{
+  border: 1px solid #eee;  
+  display:flex;
+  width: 100%;
+  flex-flow:wrap; 
+  margin-bottom: 5px;
+  
+}
+
+.huge_box_cont{
+  display:none;
+  width: 100%;
+  flex-flow:wrap; 
+  
+}
+
+
+
+.start_box_part{
+  flex:1;
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.mid_box_part{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: auto;
+}
+
+.end_box_part{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+input[type=checkbox] {
+  display:none;
+}
+
+.spantext, .sp_filter, .sp_clear {
+	border: 1px solid rgb(75, 75, 75);        /* border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
+	background-color: rgb(75, 75, 75);      /* ubah warna background */
+	color:#eee;                /* ubah warna font */
+	font-size: 16px;                  /* ubah ukuran font */
+	padding: 0.5em 1em 0.5em 1em;     /* padding: top right bottom left; */
+  user-select: none;
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+
+:is(.spantext, .sp_clear):hover {
+  border: 1px solid #eee;  
+  background-color: rgb(41, 41, 41);                     /* ubah tingkat transparansi saat cursor menuju button. 0.0 s.d 1.0 */
+}
+
+input[type=checkbox]:checked + .spantext {
+text-decoration:none;
+border: 1px solid #eee;  
+background-color: rgb(41, 41, 41); 
+}
+
+label + :not(.lbclear){
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.lb_clear{
+  margin-top: 9px;
+  margin-bottom: 9px;
 }

@@ -95,18 +95,164 @@ margin: auto auto 20px auto;
 /*                       blabla Section Start                          */
 h1 {
     color: #eee;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    margin-bottom: 5px;
 }
-
-.container {
-  padding: 10px;
-    margin: 0 auto;
-    max-width: 1000px;
-    text-align: center;
-    max-height: 1000px;
+p1{
+  color:#eee;
 }
 
 
+.container{
+  display: grid;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1050px;
+  grid-template-rows: repeat(12, 30px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  
+}
+
+
+.title{
+  padding-left: 10px;
+  padding-right:10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-row: span 3;
+  grid-column: span 4;
+  /* border: 1px solid #eee;  */
+
+  
+}
+
+.content_place{
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  grid-row: span 10;
+  grid-column: span 4;
+   /* border: 1px solid #eee;  
+  background: #4B4B4B ;  */
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  
+}
+
+.todo_list, .contact{
+  padding-left: 10px;
+  padding-right:10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  grid-row: span 6;
+  grid-column: span 2;
+  border: 1px solid #eee;  
+  background: #4B4B4B
+}
+
+
+h2{
+    border-bottom:1px solid #CCC;
+    color:#eee;
+    width:95%;
+    float:left;
+    padding-bottom:3px;
+    margin: 0px 10px 0px 10px;
+}
+
+h3{
+  border-top:1px solid #CCC;
+  color:#eee;
+  width:95%;
+  float:left;
+  padding-top:3px;
+  margin: 0px 10px 0px 10px;
+}
+
+.tool1{
+  flex:1;
+ padding: 10px 10px 10px 10px;
+ 
+  justify-content:center;
+  background: #4B4B4B ; 
+  margin-right: 5px;
+  border: 1px solid #eee;   
+}
+
+.tool2{
+  flex:1;
+ padding: 10px 10px 10px 10px;
+ 
+  justify-content:center;
+  background: #4B4B4B ; 
+  margin-left: 5px;
+  border: 1px solid #eee;   
+}
+
+ul{
+  margin:0;
+ 
+  padding-left: 30px;
+  padding-top: 30px;
+  color:#eee;
+}
+
+.list_contact{
+  margin:0;
+  padding-left: 10px;
+  color:#eee;
+}
+
+ .tool_pic {
+
+  text-align: center;
+}
+
+
+
+.linkgo {
+  background-color: #4B4B4B;
+  color: #eee;
+  padding-left: 20px;
+  padding-right:20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.linkgo:hover {
+  background-color: rgb(41, 41, 41);
+}
+
+.linkgo:active {
+  background-color: rgb(75, 75, 75);
+}
+
+
+.linkcontact {
+  background-color: #4B4B4B;
+  color: #eee;
+
+
+}
+
+.linkcontact:hover {
+  background-color: rgb(41, 41, 41);
+}
+
+.linkcontact:active {
+  background-color: rgb(75, 75, 75);
+}
+
+
+
+
+/* 
 #Event_List {
   max-width: 1100px;
   margin: auto auto 20px auto;
@@ -144,7 +290,7 @@ div.Title {
   color: #eee;
 }
 
-.Eventnya > p1 { /* p1 chara class */
+.Eventnya > p1 { 
   font-size: 30px;
   color: #eee;
   font-weight: bold;
@@ -179,7 +325,7 @@ div.Title {
 .box-listitem  > ul > li{
   font-size: 18px;
   color: #eee;
-}
+} */
 
  /*                       blabla Section End                          */
 
