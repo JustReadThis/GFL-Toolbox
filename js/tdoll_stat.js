@@ -73,6 +73,7 @@ const Display_TDoll = (Tdolls) => {
                 <li><p1 style="font-weight: bold;">Affect: ${Tdoll.buff_affect}</p1> </li>
                 <li><p1>${Tdoll.buff_effect1}</p1> </li>
                 <li><p1>${Tdoll.buff_effect2}</p1> </li>
+                <li><p1>${Tdoll.buff_effect3}</p1> </li>
                 </ul> 
 
                 </span>
@@ -240,6 +241,7 @@ const Display_TDoll2 = (Tdolls) => {
             <li><p1 style="font-weight: bold;">Affect: ${Tdoll.buff_affect}</p1> </li>
             <li><p1>${Tdoll.buff_effect1}</p1> </li>
             <li><p1>${Tdoll.buff_effect2}</p1> </li>
+            <li><p1>${Tdoll.buff_effect3}</p1> </li>
 
             </ul> 
             </div>
