@@ -89,6 +89,44 @@ margin: auto auto 20px auto;
   display: block;
   
 } 
+
+#nav_drdn {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#nav_drdn li:hover {
+  background-color: rgba(18, 18, 18, 0.5);
+} 
+
+
+#nav_drdn ul {
+  position: absolute;
+  padding: 0;
+  left: 0;
+  display: none;
+  /* hides sublists */
+}
+
+#nav_drdn li:hover ul ul {
+  display: none;
+}
+
+/* hides sub-sublists */
+
+#nav_drdn li:hover ul {
+  display: block;
+  margin-left: 160px;
+  margin-top: -46.5px;
+  background-color: rgb(75, 75, 75);
+  min-width: 160px;
+  list-style: none;
+  z-index: 1;
+ 
+}
+
 /*                       Navbar Section End                          */
 
 
@@ -219,10 +257,10 @@ ul{
 .linkgo {
   background-color: #4B4B4B;
   color: #eee;
-  padding-left: 20px;
-  padding-right:20px;
+  padding-left: 3px;
+  padding-right:3px;
   text-decoration: none;
-  text-transform: uppercase;
+  
 }
 
 .linkgo:hover {
@@ -349,3 +387,11 @@ div.Title {
     
  }
  /*                       Footer Section End                           */
+
+ .iconer{
+   position: absolute;
+   right:47%;
+   top:1.5%;
+   border: 1px solid rgba(219, 219, 219, 0.5);   
+   border-radius: 32px;
+ }

@@ -12,12 +12,12 @@
   <!-- <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
   <script src="https://unpkg.com/dayjs-plugin-utc"></script>
   <script src="https://unpkg.com/dayjs-precise-range@1.0.1/precise-range.js"></script> -->
-
+  <link rel="icon" type="image/x-icon" href="favicon.png" />
 
 </head>
 
 <body>
-
+  <img class="iconer" src="favicon.png" width="64px" height="64px"></img>
   <div class="navbar">
     <div class="navbar_center">
       <a href="index.html">Home</a>
@@ -27,20 +27,20 @@
         </button>
         <div class="dropdown-content">
           <a href="tdoll_stat.html">T-Doll</a>
+          <ul id="nav_drdn">
+            <li><a href="#">Equipment &nbsp;
+              <i class="zmdi zmdi-chevron-right"></i>
+              </a>
+              <ul>
+                <li> <a href="equip_general.html">General</a> </li>
+                <li> <a href="equip_exclusive.html">Exclusive</a> </li>
+              </ul>
+            </li>
+          </ul>
           <a href="#">coming soon</a>
         </div>
       </div>
 
-      <div class="dropdown">
-        <button class="dropbtn">Build Timer[OUTDATE] &nbsp;
-          <i class="zmdi zmdi-chevron-down"></i>
-        </button>
-        <div class="dropdown-content">
-
-          <a href="equip_timer.html">Equip</a>
-          <a href="#">coming soon</a>
-        </div>
-      </div>
 
 
     </div>
@@ -66,7 +66,7 @@
 
       <h3>Feature:</h3>
       <ul>
-        <li>Can filter tdoll by class, rarity, and buff tile effect</li>
+        <li>Can filter T-Doll by class, rarity, and buff tile effect</li>
         <li>Buff tile and effect can be showned while searching</li>
         <li>Search bar used name or build timer as filter</li>
         <li>Neural upgrade/mod tdoll show skill 1 and 2 at the same time and page</li>
@@ -75,16 +75,20 @@
     </div>
 
     <div class="tool2">
-      <h2>Equip & Fairy Build Timer [OUTDATE]   <a href="equip_timer.html" class="linkgo" target="_self"><i class="zmdi zmdi-long-arrow-right"></i></a>   </h2>
+      <h2>Equip Quick Info
+        [<a href="equip_general.html" class="linkgo" target="_self">General <i class="zmdi zmdi-long-arrow-right"></i></a>] & 
+        [<a href="equip_exclusive.html" class="linkgo" target="_self">Exclusive <i class="zmdi zmdi-long-arrow-right"></i></a>] 
+      </h2>
       <div class="tool_pic">
-        <img style="background: url(prev_tool/prev_tool2.webp) no-repeat; width: 480px;  height: 240px; transition: .2s; transition-timing-function: linear; cursor: pointer;" onmouseover="Sprite_MouseOver(this)" onmouseout="Sprite_MouseOut(this)"></img>
+        <img style="background: url(prev_tool/prev_tool3.webp) no-repeat; width: 480px;  height: 240px; transition: .2s; transition-timing-function: linear; cursor: pointer;" onmouseover="Sprite_MouseOver(this)" onmouseout="Sprite_MouseOut(this)"></img>
       </div>
 
       <h3>Feature:</h3>
       <ul>
-        <li>Search bar used name or build timer as filter</li>
-        <li>Equipment and Fairy build timer combined</li>
-        <li>not much, rework needed...</li>
+        <li>Can filter Equipment by category, type, and rarity</li>
+        <li>Search bar used name or build timer or T-Doll as filter</li>
+        <li>Separate general and Exclusive T-Doll equipment pool</li>
+        <li>Reminder: need to update database for Exclusive Equipment</li>
       </ul>  
     </div>
 
@@ -94,7 +98,7 @@
     <h2>To-do List</h2>
     <ul>
       <li>Compare status of item (example: tdoll x tdoll)</li>
-      <li>Equip & fairy database (rework and update)</li>
+      <li><del>Equip</del> & fairy database (rework and update)</li>
       <li>Protocol assimilation database</li>
       <li>Mobile friendly design/layout</li>
     </ul>  

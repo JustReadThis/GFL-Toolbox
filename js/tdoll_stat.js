@@ -104,7 +104,7 @@ for (var i = 0, len = Class_Buttons.length; i < len; i++) {
 function Selector_Button() {
     var current = document.getElementsByClassName("active");
     const Filtered_TDoll = Bunch_TDoll.filter((Tdoll) => {
-        var amboy = /^★★★★$/;
+       
         if (current.length > 0) {
             current[0].className = current[0].className.replace(" active", "");
             Clear_All_Checked();
