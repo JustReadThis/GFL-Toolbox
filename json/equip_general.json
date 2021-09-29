@@ -314,7 +314,7 @@
             "category": "Accessories",
             "type": "Red Dot Sight",
             "name": "ITI Mars",
-            "img_link": "equip/general/配件_ACOG瞄准镜_n.webp",
+            "img_link": "equip/general/配件_acog瞄准镜_n.webp",
             "color": "rgba(255, 182, 0, 0.8)",
             "effect1": "Accuracy: +22~30",
             "effect2": "Rate of Fire: -4~1",
