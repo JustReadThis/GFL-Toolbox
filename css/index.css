@@ -118,10 +118,10 @@ margin: auto auto 20px auto;
 
 #nav_drdn li:hover ul {
   display: block;
-  margin-left: 160px;
+  margin-left: 199px;
   margin-top: -46.5px;
   background-color: rgb(75, 75, 75);
-  min-width: 160px;
+  min-width: 199px;
   list-style: none;
   z-index: 1;
  
@@ -213,8 +213,18 @@ h3{
   margin: 0px 10px 0px 10px;
 }
 
-.tool1{
+.tool1, .tool2{
   flex:1;
+ padding: 10px 10px 10px 10px;
+ margin-bottom: 10px;
+  justify-content:center;
+  background: #4B4B4B ; 
+  margin-right: 5px;
+  border: 1px solid #eee;   
+}
+
+.tool3{
+ 
  padding: 10px 10px 10px 10px;
  
   justify-content:center;
@@ -223,15 +233,7 @@ h3{
   border: 1px solid #eee;   
 }
 
-.tool2{
-  flex:1;
- padding: 10px 10px 10px 10px;
- 
-  justify-content:center;
-  background: #4B4B4B ; 
-  margin-left: 5px;
-  border: 1px solid #eee;   
-}
+
 
 ul{
   margin:0;

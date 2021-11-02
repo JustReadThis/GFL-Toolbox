@@ -117,7 +117,7 @@ body {
 
 #nav_drdn li:hover ul {
   display: block;
-  margin-left: 199px;
+  margin-left: 198px;
   margin-top: -46.5px;
   background-color: rgb(75, 75, 75);
   min-width: 199px;
@@ -125,10 +125,6 @@ body {
   z-index: 1;
  
 }
-
-/* shows sublist on hover */
-
-
 
 /*                       Navbar Section End                          */
 
@@ -150,27 +146,27 @@ h1 {
 #TDoll_List {
     padding-inline-start: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 330px));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 242px));
     grid-gap: 20px;
     
 }
 
 .Tdoll {
   display: grid; 
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 0.3fr 1.2fr 0.3fr 0.3fr; 
+  grid-template-columns: 242px; 
+  grid-template-rows: 1fr 242px 36px; 
   gap: 0px 0px; 
   grid-template-areas: 
-    "name name name name"
-    "pic effect-area effect-area effect-area"
-    "rarity category type type"
-    "timer target target target"; 
+    "name"
+    "image_area"
+    "Trait"; 
     background-color: rgba(255, 255, 255, 0.16);       
 }
 
+
 h2{
   margin: 0px 0px 0px 0px;
-  font-size: 17px;
+  font-size: 20px;
   color: #fff;
   font-weight: bold;
   opacity:0.8;
@@ -179,30 +175,41 @@ h2{
 }
 
 p1{
-  margin: 1px 0px 0px 1px;
-  padding-left: 2px;
-  font-size: 15px;
+padding: 0px 4px 2px 4px; 
+font-size: 16px;
   color: rgb(219 219 219);
   font-weight: bold;
-  text-align: left;
+  text-align: center;
+  border: 1px solid rgba(234, 234, 234, 0.3);
+  align-content: center;
+  position: relative;
+  bottom: -7px;
+  background-color: rgb(41, 41, 41);
+
 }
 
 p2{
   margin: 0px 0px 0px 0px;
-  font-size: 13px;
+  padding: 3px 3px 3px 3px;
+  font-size: 15px;
   color: rgb(219 219 219);
   font-weight: bold;
- 
-
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: rgba(140,0,8,0.5);
 }
 
 p3{
   margin: 0px 0px 0px 0px;
-  font-size: 13px;
+  padding: 0px 3px 0px 3px;
+  font-size: 15px;
   color: rgb(219 219 219);
   font-weight: bold;
-  
-
+  position: absolute;
+  bottom: 3px;
+  left: 5px;
+  background-color: rgba(41, 41, 41, 0.8)
 }
 
 p5{
@@ -216,20 +223,17 @@ p5{
 p7{
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
-  font-size: 21px;
+  font-size: 23px;
   color: #FFB200;
+  position: absolute;
+  bottom: 0;
+  right: 5px;
 }
 
 
-.pic { grid-area: pic; border-left: 1px solid #eaeaea; border-right: 1px solid #eaeaea;}
-.effect-area { grid-area: effect-area; border-right: 1px solid #eaeaea;}
-.type { grid-area: type; border-top: 1px solid #eaeaea; border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; align-items: center;justify-content: center;display: flex;}
-.category { grid-area: category; border-top: 1px solid #eaeaea; border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; align-items: center;justify-content: center;display: flex;}
-.name { grid-area: name; border: 1px solid #eaeaea;}
-.rarity { grid-area: rarity; border: 1px solid #eaeaea;}
-.timer { grid-area: timer; border-left: 1px solid #eaeaea; border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea;}
-.target { grid-area: target; border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; }
-
+.name { grid-area: name; border-left: 1px solid #eaeaea; border-right: 1px solid #eaeaea; border-top: 1px solid #eaeaea; }
+.image_area { grid-area: image_area; border: 1px solid #eaeaea; position:relative;}
+.Trait { grid-area: Trait; border-left: 1px solid #eaeaea; border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; position: relative;}
 
 
 label{
@@ -313,26 +317,197 @@ label{
   margin-right:5px;
 }
 
+.overlay {
+  display:none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  overflow: auto;
+  width:100%;
+}
 
+
+
+.popup {
+  margin: 0px 0px 0px 0px;
+  padding: 25px 20px 20px 20px;
+  /* background:#4B4B4B; */
+  border-radius: 5px;
+  width: 99%;
+  position: relative;
+ 
+}
+
+
+
+.popup .close {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  transition: all 200ms;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #eee;
+}
+
+.popup .close:hover {
+
+ text-align: center;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  color: #eee; 
+  border: 1px solid #eee;  
+  
+}
+
+.popup .content {
+  max-height: 100%;
+  overflow: auto;
+}
+
+
+.tdoll2{
+  display: grid;
+  grid-template-columns: 80px 80px 60px 55px 67px 68px 400px 400px;
+  grid-template-rows: 40px 150px 80px 60px 180px;
+
+  gap: 10px 10px;
+  
+  grid-template-areas:
+    "id_num start_rarity faction faction name_enemy name_enemy b_trait b_trait"
+    "img_area img_area img_area stat_area stat_area stat_area skill1_area skill1_area"
+    "img_area img_area img_area stat_area stat_area stat_area skill2_area skill2_area"
+    "affect_area affect_area affect_area pva_area pva_area pva_area skill2_area skill2_area"
+    "affect_area affect_area affect_area pva_area pva_area pva_area skill3_area skill4_area";
+  height: 100%;
+}
+
+.tdoll-item{
+  background: #4B4B4B;
+    color: rgb(219 219 219);
+  font-weight:font-bold;
+  display: flex;
+  border: 1px solid #eee;  
+}
+
+.id_num { grid-area: id_num; display: flex; align-items: center; justify-content: center;}
+
+.start_rarity { grid-area: start_rarity; display: flex; align-items: center; justify-content: center;}
+
+.faction { grid-area: faction; display: flex; align-items: center; justify-content: center;}
+
+.name_enemy { grid-area: name_enemy; display: flex; align-items: center; justify-content: center;}
+
+.b_trait { grid-area: b_trait; display: flex; align-items: center;}
+
+.img_area { grid-area: img_area; }
+
+.stat_area { grid-area: stat_area; }
+
+.affect_area { grid-area: affect_area; }
+
+.pva_area { grid-area: pva_area; }
+
+.skill1_area { grid-area: skill1_area; height: 150px; overflow-y: scroll;}
+
+.skill2_area { grid-area: skill2_area; height: 150px; overflow-y: scroll;}
+
+.skill3_area { grid-area: skill3_area; height: 180px; overflow-y: scroll;}
+
+.skill4_area { grid-area: skill4_area; height: 180px; overflow-y: scroll;}
+
+
+table{
+  width: 75px;
+  height: 75px;
+  background-color:#6B696B;
+  user-select: none;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  color:rgba(0,0,0,0);
+}
+
+.skillicon{
+  margin-left: 10px;
+  margin-top: 5px;
+  border: 1px solid #eee;  
+}
 
 h3 {
-
-
+  padding: 0 0 0 0 ;
+  margin: 0px 0px 0px 0px;
   font-size: 25px;
     /* color: #FFB200; */
     font-weight: bold;
-  text-align: left;
+    
 }
 
 p4{
-  margin: 2px 2px 2px 2px;
+  margin: 0px 0px 0px 0px;
   font-size: 20px;
-  color: #eee;
   font-weight: bold;
-  width: 200px; 
-  height: 26px;
+
 
 }
+
+p6{
+  margin: 0px 0px 0px 0px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+    font-size: 25px;
+    color: #FFB200;
+
+  }
+
+  p8{
+    margin: 0px 0px 0px 10px;
+    padding: 0px 10px 2px 10px ;
+    font-size: 20px;
+      color: rgb(219 219 219);
+      font-weight: bold;
+      text-align: center;
+      border: 1px solid rgba(234, 234, 234, 0.3);
+      background-color: rgb(41, 41, 41);
+    }  
+
+    p10 {
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 0px;
+      font-size: 16px;
+    }
+
+    p11 {
+      font-size: 14.5px;
+    }
+
+    p12 {
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 0px;
+      font-size: 16px;
+    }
+
+    p13 {
+      margin: 2px 2px 2px 2px;
+      font-size: 20px;
+      color: #eee;
+      font-weight: bold;
+      width: 200px; 
+      height: 26px;
+    }
+
+    p14 {
+      font-size: 16px;
+    }
 
 .title_mod{
   flex:1;

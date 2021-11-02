@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Protocol Assimilation Quick Info</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/protocol_assimilation_stat.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> 
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="navbar_center">
+        <a href="index.html">Home </a>
+        <div class="dropdown">
+          <button class="dropbtn">Quick Info &nbsp;
+            <i class="zmdi zmdi-chevron-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="tdoll_stat.html">T-Doll</a>
+            <ul id="nav_drdn">
+              <li><a href="#">Equipment &nbsp;
+                <i class="zmdi zmdi-chevron-right"></i>
+                </a>
+                <ul>
+                  <li> <a href="equip_general.html">General</a> </li>
+                  <li> <a href="equip_exclusive.html">Exclusive</a> </li>
+                </ul>
+              </li>
+            </ul>
+            <a href="protocol_assimilation_stat.html">Protocol Assimilation</a>
+            <a href="#">coming soon</a>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <div class="container">
+        <h1>Protocol Assimilation Quick Info</h1>
+
+        <form class="demoForm" id="demoForm">
+        <button type="button" name="BT[]"class="button-flat" value="★★★">Initial 3-Star</button>&nbsp;
+        <button type="button" name="BT[]"class="button-flat" value="★★">Initial 2-Star</button>&nbsp;
+        <button type="button" name="BT[]"class="button-flat" value="★">Initial 1-Star</button>&nbsp;
+        <button type="button" name="BT[]"class="button-flat2" value="Clear">Clear</button>
+
+        <label>
+          <input type="checkbox" id="cb_setting" name="CB_Setting" value="a" onclick="getSetting()">
+          <span class="spantext">
+            <i class="zmdi zmdi-settings"></i>
+          </span>
+        </label>&nbsp;        
+      </form>
+      <br>
+
+<div class="huge_box_cont">
+<div class="title_mod">
+  <p13>Catagory Modifier</p13>
+</div>
+
+<!-- array faction -->
+<div class="box_cont">
+
+  <div class="start_box_part">
+    <span class="sp_filter">Faction:</span>
+  </div>
+
+  <div class="mid_box_part">
+    <label>
+      <input type="checkbox" id="cb1" name="Sangvis_Ferri" value="^Sangvis Ferri$" onclick="getValue()">
+      <span class="spantext">Sangvis Ferri</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb2" name="Regular_Army" value="^Regular Army$" onclick="getValue()">
+      <span class="spantext">Regular Army</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb3" name="Paradeus" value="^Paradeus$" onclick="getValue()">
+      <span class="spantext">Paradeus</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb4" name="Other_Faction" value="^Other Faction$" onclick="getValue()">
+      <span class="spantext">Other Faction</span>
+    </label>&nbsp;
+  </div>
+
+<div class="end_box_part">
+  <label class="lb_clear">
+    <input type="checkbox" id="cb_clear1" name="Clear" value="^$" onclick="getValue()">
+    <span class="sp_clear">Clear</span> 
+</label>
+</div>
+
+</div>
+<!-- array faction --> 
+<br>
+<!-- array battle traits 1 -->
+<div class="box_cont">
+
+  <div class="start_box_part">
+    <span class="sp_filter">Battle Traits 1:</span>
+  </div>
+
+  <div class="mid_box_part">
+    <label>
+      <input type="checkbox" id="cb5" name="Armored" value="^Armored$" onclick="getValue()">
+      <span class="spantext">Armored</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb6" name="Unarmored" value="^Unarmored$" onclick="getValue()">
+      <span class="spantext">Unarmored</span>
+    </label>&nbsp;
+  </div>
+
+<div class="end_box_part">
+  <label class="lb_clear">
+    <input type="checkbox" id="cb_clear2" name="Clear" value="^$" onclick="getValue()">
+    <span class="sp_clear">Clear</span> 
+</label>
+</div>
+
+</div>
+<!-- array battle traits 1 --> 
+<br>
+<!-- array battle traits 2 -->
+<div class="box_cont">
+
+  <div class="start_box_part">
+    <span class="sp_filter">Battle Traits 2:</span>
+  </div>
+
+  <div class="mid_box_part">
+    <label>
+      <input type="checkbox" id="cb7" name="T-Doll" value="^T-Doll$" onclick="getValue()">
+      <span class="spantext">T-Doll</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb8" name="Machine" value="^Machine$" onclick="getValue()">
+      <span class="spantext">Machine</span>
+    </label>&nbsp;
+  </div>
+
+<div class="end_box_part">
+  <label class="lb_clear">
+    <input type="checkbox" id="cb_clear3" name="Clear" value="^$" onclick="getValue()">
+    <span class="sp_clear">Clear</span> 
+</label>
+</div>
+
+</div>
+<!-- array battle traits 2 --> 
+<br>
+<!-- array battle traits 3 -->
+<div class="box_cont">
+
+  <div class="start_box_part">
+    <span class="sp_filter">Battle Traits 3:</span>
+  </div>
+
+  <div class="mid_box_part">
+    <label>
+      <input type="checkbox" id="cb9" name="Melee" value="^Melee$" onclick="getValue()">
+      <span class="spantext">Melee</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb10" name="Ranged" value="^Ranged$" onclick="getValue()">
+      <span class="spantext">Ranged</span>
+    </label>&nbsp;
+  </div>
+
+<div class="end_box_part">
+  <label class="lb_clear">
+    <input type="checkbox" id="cb_clear4" name="Clear" value="^$" onclick="getValue()">
+    <span class="sp_clear">Clear</span> 
+</label>
+</div>
+
+</div>
+<!-- array battle traits 3 --> 
+<br>
+<!-- array rarity -->
+<div class="box_cont">
+
+  <div class="start_box_part">
+    <span class="sp_filter">Starting Rarity:</span>
+  </div>
+
+  <div class="mid_box_part">
+    <label>
+      <input type="checkbox" id="cb11" name="3star" value="^★★★$" onclick="getValue()">
+      <span class="spantext">Initial 3-Star</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb12" name="2star" value="^★★$" onclick="getValue()">
+      <span class="spantext">Initial 2-Star</span>
+    </label>&nbsp;
+    <label>
+      <input type="checkbox" id="cb13" name="1star" value="^★$" onclick="getValue()">
+      <span class="spantext">Initial 1-Star</span>
+    </label>&nbsp;
+  </div>
+
+<div class="end_box_part">
+  <label class="lb_clear">
+    <input type="checkbox" id="cb_clear5" name="Clear" value="^$" onclick="getValue()">
+    <span class="sp_clear">Clear</span> 
+</label>
+</div>
+
+</div>
+<!-- array rarity --> 
+
+
+</div>
+
+    <br>
+      <br>
+        <div id="SearchWrapper">
+         
+            <input type="text" name="SearchBar" id="SearchBar"
+                placeholder="search by name (i.e. Executioner)" />
+        </div>
+        <ul id="TDoll_List"></ul>
+    </div>
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <!--
+        <a class="close" href="#" onclick="Exit_Sensor()">×</a>
+        -->
+        <span class="close" onclick="Exit_Sensor(this)">&times</span>
+        <div class="content">
+          <ul id="TDoll_List2" style="list-style-type:none; padding: 0; margin: 0; text-align: left;"></ul>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="js/protocol_assimilation_stat.js"></script>
+    <div class="footer">
+        Girls' Frontline is Copyright SUNBORN Network Technology Co., Ltd. All images and names owned and trademarked by SUNBORN Network Technology Co., Ltd. are property of SUNBORN Network Technology Co., Ltd.
+      <br> This site are fanproject and I also not affiliated with it(mentioned above).
+      </div>
+</body>
+
+</html>

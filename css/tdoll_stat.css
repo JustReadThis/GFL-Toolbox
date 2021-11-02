@@ -117,10 +117,10 @@ body {
 
 #nav_drdn li:hover ul {
   display: block;
-  margin-left: 160px;
+  margin-left: 199px;
   margin-top: -46.5px;
   background-color: rgb(75, 75, 75);
-  min-width: 160px;
+  min-width: 199px;
   list-style: none;
   z-index: 1;
  
