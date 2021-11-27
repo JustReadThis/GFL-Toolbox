@@ -383,17 +383,37 @@ function Skill2_Box() {
 
     var idno_text = parseInt(idno.substring(4, idno.length));
 
-    if (idno_text >= 2000) {
-        sk2box.style.display = 'flex';
-        sk1box.style["grid-row"] = "span 6";
-        sk1box.style["height"] = "260px";
-        //console.log("benar");
-    } else {
-        sk2box.style.display = 'none';
-        sk1box.style["grid-row"] = "span 9"
-        sk1box.style["height"] = "360px";
-        //console.log("salah");
+    const mediaQueryList = window.matchMedia('(max-width: 640px)');
+
+    if(mediaQueryList.matches) {
+        if (idno_text >= 2000) {
+            sk2box.style.display = 'flex';
+            sk1box.style["height"] = "auto";
+            sk2box.style["height"] = "auto";
+            //console.log("benar");
+        } else {
+            sk2box.style.display = 'none';
+            sk1box.style["height"] = "auto";
+            
+            //console.log("salah");
+        }
     }
+    else {
+        if (idno_text >= 2000) {
+            sk2box.style.display = 'flex';
+            sk1box.style["grid-row"] = "span 6";
+            sk1box.style["height"] = "260px";
+            //console.log("benar");
+        } else {
+            sk2box.style.display = 'none';
+            sk1box.style["grid-row"] = "span 9"
+            sk1box.style["height"] = "360px";
+            //console.log("salah");
+        }
+    }
+
+
+
 
     //    }
 

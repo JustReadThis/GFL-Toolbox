@@ -594,3 +594,121 @@ label + :not(.lbclear){
   margin-top: 9px;
   margin-bottom: 9px;
 }
+
+
+
+
+@media screen and (max-width: 640px) {
+
+
+  .overlay {
+    display:none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    width:100%;
+  }
+  
+  
+  
+  .popup {
+    margin: 0px 0px 0px 0px;
+    padding: 45px 0px 20px 0px;
+    /* background:#4B4B4B; */
+    border-radius: 5px;
+    width: 99%;
+    position: relative;
+   
+  }
+  
+  
+  
+  .popup .close {
+    position: absolute;
+    top: 0px;
+    right:  20px;
+    transition: all 200ms;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #eee;
+  }
+  
+  .popup .close:hover {
+  
+   text-align: center;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    color: #eee; 
+    border: 1px solid #eee;  
+    
+  }
+  
+  .popup .content {
+    max-height: 100%;
+    overflow: auto;
+  }
+  
+  
+  .tdoll2{
+    display: grid;
+    grid-template-columns: 80px 80px 1fr;
+    grid-template-rows: 40px 40px 40px 245px 250px auto auto auto auto auto;
+  
+    gap: 10px 10px;
+    
+    grid-template-areas:
+    "id_num start_rarity faction"
+    "b_trait b_trait b_trait"
+    "name_enemy name_enemy name_enemy"
+    "img_area img_area img_area"
+    "stat_area stat_area affect_area"
+    "pva_area pva_area pva_area"
+    "skill1_area skill1_area skill1_area"
+    "skill2_area skill2_area skill2_area"
+    "skill3_area skill3_area skill3_area"
+    "skill4_area skill4_area skill4_area";
+}
+  
+  .tdoll-item{
+    background: #4B4B4B;
+      color: rgb(219 219 219);
+    font-weight:font-bold;
+    display: flex;
+    border: 1px solid #eee;  
+  }
+  
+  .id_num { grid-area: id_num; display: flex; align-items: center; justify-content: center;}
+  
+  .start_rarity { grid-area: start_rarity; display: flex; align-items: center; justify-content: center;}
+  
+  .faction { grid-area: faction; display: flex; align-items: center; justify-content: center;}
+  
+  .name_enemy { grid-area: name_enemy; display: flex; align-items: center; justify-content: center;}
+  
+  .b_trait { grid-area: b_trait; display: flex; align-items: center;}
+  
+  .img_area { grid-area: img_area; }
+  
+  .stat_area { grid-area: stat_area; }
+  
+  .affect_area { grid-area: affect_area; }
+  
+  .pva_area { grid-area: pva_area; padding: 0px 0 7px 0;}
+  
+  .skill1_area { grid-area: skill1_area; height: 150px; overflow-y: scroll; padding: 7px 0 7px 0;}
+  
+  .skill2_area { grid-area: skill2_area; height: 150px; overflow-y: scroll; padding: 7px 0 7px 0;}
+  
+  .skill3_area { grid-area: skill3_area; height: 180px; overflow-y: scroll; padding: 7px 0 7px 0;}
+  
+  .skill4_area { grid-area: skill4_area; height: 180px; overflow-y: scroll; padding: 7px 0 7px 0;}
+  
+
+
+}

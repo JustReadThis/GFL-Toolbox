@@ -401,8 +401,54 @@ function SkillSet_Box() {
 //    var sk2box = document.getElementsByClassName('tdoll-item blok-skill2')[0];
 //    var sk1box = document.querySelector('.blok-skill');
 
+const mediaQueryList = window.matchMedia('(max-width: 640px)');
+
+if(mediaQueryList.matches) {
     if (
-        (sk2_text !== "Skill 2: [null]") && (sk3_text !== "Skill 3:   ")
+        (sk2_text !== "Skill 2:   ") && (sk3_text !== "Skill 3:   ")
+        ) {
+        sk2_box.style.display = 'flex';
+        sk3_box.style.display = 'flex';
+        sk4_box.style.display = 'flex';
+        
+        sk1_box.style["height"] = "auto";
+        sk2_box.style["height"] = "auto";
+        sk3_box.style["height"] = "auto";
+        sk4_box.style["height"] = "auto";
+
+        //console.log("benar");
+    } if (
+        (sk2_text !== "Skill 2:   ") && (sk3_text == "Skill 3:   ")
+        ) {
+        sk2_box.style.display = 'flex';
+        sk3_box.style.display = 'none';
+        sk4_box.style.display = 'none';
+        sk1_box.style["height"] = "auto";
+        sk2_box.style["height"] = "auto";
+        sk3_box.style["height"] = "0px";
+        sk4_box.style["height"] = "0px";
+
+        tdoll2_boxx.style["grid-template-rows"] = "40px 40px 40px 240px 250px auto auto auto";
+
+        //console.log("benar");
+    } if (
+        (sk2_text == "Skill 2:   ") && (sk3_text == "Skill 3:   ")
+        ) {
+        sk2_box.style.display = 'none';
+        sk3_box.style.display = 'none';
+        sk4_box.style.display = 'none';
+        
+        sk1_box.style["height"] = "auto";
+        sk2_box.style["height"] = "0px";
+        sk3_box.style["height"] = "0px";
+        sk4_box.style["height"] = "0px";
+
+        //console.log("benar");
+    }
+}
+else {
+    if (
+        (sk2_text !== "Skill 2:   ") && (sk3_text !== "Skill 3:   ")
         ) {
         sk2_box.style.display = 'flex';
         sk3_box.style.display = 'flex';
@@ -443,8 +489,7 @@ function SkillSet_Box() {
 
         //console.log("benar");
     }
-
-    //    }
+}
 
 
 };

@@ -405,6 +405,7 @@ label{
   overflow: auto;
 }
 
+/* 
 @media (max-width: 700px) {
   .tdoll2{
     display: grid;
@@ -415,7 +416,8 @@ label{
     grid-gap: 10px;
     
   }
-}
+} */
+
 
 .tdoll2{
   display: grid;
@@ -626,4 +628,174 @@ label + :not(.lbclear){
 .lb_clear{
   margin-top: 9px;
   margin-bottom: 9px;
+}
+
+
+@media screen and (max-width: 640px) {
+
+
+  .overlay {
+    display:none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    width:100%;
+  }
+  
+  
+  
+  .popup {
+    margin: 15px 0px 0px 0px;
+    padding: 30px 0px 20px 0px;
+    /* background:#4B4B4B; */
+    border-radius: 5px;
+    width: 98%;
+    position: relative;
+    
+  }
+  
+  
+  
+  .popup .close {
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #eee;
+  }
+  
+  .popup .close:hover {
+  
+   text-align: center;
+  
+  
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    color: #eee; 
+    border: 1px solid #eee;  
+    
+  }
+  
+  .popup .content {
+    max-height: 100%;
+    overflow: auto;
+  }
+
+
+
+
+
+  .tdoll2 {
+    display: grid;
+    grid-template-columns: 128px 1fr;
+    grid-template-rows: 35px 0.4fr 260px auto auto auto auto;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "blok-id blok-type"
+      "blok-name blok-name"
+      "blok-avatar blok-status"
+      "blok-buff blok-buff"
+      "blok-skill blok-skill"
+      "blok-skill2 blok-skill2"
+      "blok-other blok-other";
+  }
+  
+  .tdoll-item{
+    background: #4B4B4B;
+      color: rgb(219 219 219);
+    font-weight:font-bold;
+    display: flex;
+  }
+
+  .blok-id { 
+  grid-area: blok-id; 
+    padding-left: 10px;
+    padding-right:10px;
+    align-items: center;
+  
+    border: 1px solid #eee;  
+  }
+  
+  .blok-type { 
+  grid-area: blok-type; 
+    padding-left: 10px;
+    padding-right:10px;
+    align-items: center;
+  
+    border: 1px solid #eee;  
+  }
+  
+  .blok-name { 
+  grid-area: blok-name; 
+    padding-right:10px;
+    align-items: center;
+  
+    border: 1px solid #eee;  
+  }
+  
+  .blok-avatar { 
+  grid-area: blok-avatar; 
+    padding-top:1px;
+  
+    border: 1px solid #eee;  
+  }
+  
+  .blok-status { 
+  grid-area: blok-status; 
+    padding-left:10px;
+  
+    border: 1px solid #eee;  
+  }
+  
+  .blok-buff { 
+  grid-area: blok-buff; 
+    padding: 7px 0 7px 10px;
+    border: 1px solid #eee;  
+  }
+  
+  .blok-skill { 
+  grid-area: blok-skill; 
+  padding: 7px 0 7px 0;
+    border: 1px solid #eee;  
+  }
+  
+  .blok-skill2 { 
+  grid-area: blok-skill2; 
+  padding: 7px 0 7px 0;
+  border: 1px solid #eee;  
+  display:flex;
+  }
+  
+  .blok-other { 
+  grid-area: blok-other; 
+    padding-left:10px;
+  
+    border: 1px solid #eee; 
+  }
+  
+  p7{
+  
+    margin: 225px 3px 0px 0px;
+    font-size: 20px;
+  
+    font-weight: bold;
+    opacity:1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  
+    justify-content: right; 
+    align-items: right;
+    text-align: right;
+  }
+
+
 }

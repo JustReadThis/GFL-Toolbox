@@ -24,5 +24,5 @@
   * Compare status of item (example: tdoll x tdoll)
   * ~~Equip~~ & fairy database (rework and update)
   * ~~Protocol assimilation database~~ (need correction on the translation)
-  * Mobile friendly design/layout
+  * ~~Mobile friendly design/layout~~ (kinda)
 
