@@ -11,8 +11,8 @@ if(mediaQueryList.matches) {
 }
 else {
    
-img_file_i.style["width"] = "20px";
-img_file_i.style["height"] = "20px";
+img_file_i.style["width"] = "480px";
+img_file_i.style["height"] = "240px";
 };
 
 }
